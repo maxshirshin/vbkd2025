@@ -62,7 +62,7 @@ function App() {
                   targetRowHeight={400}
                   render={{
                   extras: (_, { photo, index }) => (
-                    <div className="gallery-image-title">({index + 1}): {photo.title}</div>
+                    <div className="gallery-image-title">{photo.title}</div>
                   ),
                 }}
                 />
