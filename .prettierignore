@@ -1,0 +1,10 @@
+node_modules
+dist
+build
+coverage
+.vite
+/.cache
+public
+src/img
+*.lock
+**/*.min.*

@@ -1,32 +1,33 @@
-import { useState } from 'react'
-import { RowsPhotoAlbum as PhotoAlbum, type Photo } from 'react-photo-album'
-import Lightbox, { type Slide } from 'yet-another-react-lightbox'
-import 'react-photo-album/rows.css'
-import 'yet-another-react-lightbox/styles.css'
-import './App.css'
-import { galleryPhotos } from './galleryData'
+import { useState } from 'react';
+import { RowsPhotoAlbum as PhotoAlbum, type Photo } from 'react-photo-album';
+import Lightbox, { type Slide } from 'yet-another-react-lightbox';
+import 'react-photo-album/rows.css';
+import 'yet-another-react-lightbox/styles.css';
+import './App.css';
+import { galleryPhotos } from './galleryData';
 
-type PhotoSpec = Photo & Slide & {
-  title: string;
-  description: string;
-  author: string;
-  plantCommonName: string;
-  plantBotanicalName: string;
-  artworkYear: string;
-  artworkSize: string;
-  artworkTechnique: string;
-  contactEmail?: string;
-  contactPhone?: string;
-  contactWebsite?: string;
-  contactSocial?: string;
-  contactNote?: string;
-}
+type PhotoSpec = Photo &
+  Slide & {
+    title: string;
+    description: string;
+    author: string;
+    plantCommonName: string;
+    plantBotanicalName: string;
+    artworkYear: string;
+    artworkSize: string;
+    artworkTechnique: string;
+    contactEmail?: string;
+    contactPhone?: string;
+    contactWebsite?: string;
+    contactSocial?: string;
+    contactNote?: string;
+  };
 
 function App() {
-  const [activeTab, setActiveTab] = useState('home')
-  const [index, setIndex] = useState(-1)
-  
-  const photos: PhotoSpec[] = galleryPhotos
+  const [activeTab, setActiveTab] = useState('home');
+  const [index, setIndex] = useState(-1);
+
+  const photos: PhotoSpec[] = galleryPhotos;
 
   return (
     <div className="app-container">
@@ -35,7 +36,7 @@ function App() {
         <nav>
           <ul className="nav-menu">
             <li>
-              <button 
+              <button
                 className={activeTab === 'home' ? 'active' : ''}
                 onClick={() => setActiveTab('home')}
               >
@@ -43,7 +44,7 @@ function App() {
               </button>
             </li>
             <li>
-              <button 
+              <button
                 className={activeTab === 'about' ? 'active' : ''}
                 onClick={() => setActiveTab('about')}
               >
@@ -51,7 +52,7 @@ function App() {
               </button>
             </li>
             <li>
-              <button 
+              <button
                 className={activeTab === 'contact' ? 'active' : ''}
                 onClick={() => setActiveTab('contact')}
               >
@@ -64,37 +65,75 @@ function App() {
       <main className="main-content">
         {activeTab === 'home' && (
           <section>
-            <p>Auf dieser Seite präsentiert VBKD in der Online-Ausstellung 2025 die Kunstwerke seiner Mitglieder.</p>
+            <p>
+              Auf dieser Seite präsentiert VBKD in der Online-Ausstellung 2025
+              die Kunstwerke seiner Mitglieder.
+            </p>
             <div className="gallery-container">
-                <PhotoAlbum 
-                  photos={photos}
-                  onClick={({ index }) => setIndex(index)}
-                  spacing={8}
-                  padding={0}
-                  targetRowHeight={400}
-                  render={{
+              <PhotoAlbum
+                photos={photos}
+                onClick={({ index }) => setIndex(index)}
+                spacing={8}
+                padding={0}
+                targetRowHeight={400}
+                render={{
                   extras: (_, { photo, index }) => (
-                    <div className="gallery-image-title">{photo.author} - {photo.title}</div>
+                    <div className="gallery-image-title">
+                      {photo.author} - {photo.title}
+                    </div>
                   ),
                 }}
-                />
+              />
               <Lightbox
                 slides={photos}
                 open={index >= 0}
                 index={index}
                 close={() => setIndex(-1)}
+                on={{
+                  view: ({ index }) => {
+                    setIndex(index);
+                  },
+                }}
                 render={{
                   slide: ({ slide }) => (
-                    <div className="lightbox-content">
-                      <div className="lightbox-image">
-                        <img src={slide.src} alt={(photos[index]).title} />
+                    <div className="b-content">
+                      <div className="b-content__pic">
+                        <img src={slide.src} alt={photos[index].title} />
                       </div>
-                      <div className="lightbox-info">
-                        <h3>{(photos[index]).title}</h3>
-                        <p>{(photos[index]).description}</p>
+                      <div className="b-content__info">
+                        <div className="b-content__author">
+                          {photos[index].author}
+                        </div>
+                        <div className="b-content__title">
+                          {photos[index].title}
+                        </div>
+                        <div>
+                          <span className="b-content__meta">
+                            {photos[index].artworkSize}
+                          </span>
+                          {' • '}
+                          <span className="b-content__meta">
+                            {photos[index].artworkYear}
+                          </span>
+                          {' • '}
+                          <span className="b-content__meta">
+                            {photos[index].artworkTechnique}
+                          </span>
+                        </div>
+                        <div>
+                          <span className="b-content__cn">
+                            {photos[index].plantCommonName}
+                          </span>{' '}
+                          <span className="b-content__bn">
+                            ({photos[index].plantBotanicalName})
+                          </span>
+                        </div>
+                        <div className="b-content__desc">
+                          {photos[index].description}
+                        </div>
                       </div>
                     </div>
-                  )
+                  ),
                 }}
               />
             </div>
@@ -103,18 +142,24 @@ function App() {
         {activeTab === 'about' && (
           <section>
             <h2>About Us</h2>
-            <p>This is the about page content. Replace this with your own content.</p>
+            <p>
+              This is the about page content. Replace this with your own
+              content.
+            </p>
           </section>
         )}
         {activeTab === 'contact' && (
           <section>
             <h2>Contact Us</h2>
-            <p>This is the contact page content. Replace this with your own content.</p>
+            <p>
+              This is the contact page content. Replace this with your own
+              content.
+            </p>
           </section>
         )}
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
