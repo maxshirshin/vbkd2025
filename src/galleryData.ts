@@ -5,14 +5,14 @@ const galleryPhotosRaw = [
     "height": 5728,
     "title": "Herbst II",
     "description": " Verbreitungsgebiet Südwest-Türkei und auf Rhodos. In Parks in der Türkei und auf Rhodos ist er durch das Fällen von Bäumen für Straßen, Staudämme und die Landwirtshaft gefährdet. Touristen und Bauindustrie sind seine Feinde.",
-    "accepted": true,
     "author": "Sue Hénon",
     "plantCommonName": "Orientalischer Amberbaum",
     "plantBotanicalName": "Liquidambar orientalis",
     "artworkYear": "2024",
-    "artworkSize": "50 x 70",
+    "artworkSize": "50×70cm",
     "artworkTechnique": "Farbstift auf Papier",
-    "contact": "atelierhenon@googlemail.com   06071-21613"
+    "contactEmail": "atelierhenon@googlemail.com",
+    "contactPhone": "06071-21613"
   },
   {
     "src": "/src/img/2.jpg",
@@ -20,14 +20,13 @@ const galleryPhotosRaw = [
     "height": 9921,
     "title": "Aerangis Punctata",
     "description": "Aerangis punctata ist eine seltene, auf Bäumen wachsende Orchidee aus den feuchten Hochwäldern Madagaskars. Ihr zartes Gleichgewicht mit dem Lebensraum ist durch Abholzung und Klimaveränderungen bedroht. Um die wenigen verbliebenen Populationen zu schützen, steht sie heute als gefährdete Art (vulnerable) unter internationalem Schutz.",
-    "accepted": true,
     "author": "Kristin Tessen",
     "plantCommonName": "gepunktete Aerangis",
     "plantBotanicalName": "Aerangis punctata ",
     "artworkYear": "2025",
-    "artworkSize": "29,7 x 42 cm",
+    "artworkSize": "29.7×42cm",
     "artworkTechnique": "Aquarell",
-    "contact": "https://www.instagram.com/kristintessen/"
+    "contactWebsite": "https://www.instagram.com/kristintessen/"
   },
   {
     "src": "/src/img/3.jpg",
@@ -35,14 +34,14 @@ const galleryPhotosRaw = [
     "height": 3508,
     "title": "Round leaved sundew",
     "description": "Drosera rotundifolia, der Rundblättrige Sonnentau, ist eine mehrjährige, fleischfressende Pflanze. Sie besiedelt offene, feuchte und nährstoffarme Standorte wie saure Hochmoore und wächst insbesondere in Pflanzengesellschaften, die von Torfmoosen (Sphagnum) dominiert werden.\n\nHochmoore reagieren äußerst empfindlich auf Veränderungen. Entwässerung und Nährstoffeintrag zerstören ihre ökologische Funktion für Artenschutz und Klima. Die Zerstörung in kurzer Zeit machte zunichte, was über Jahrtausende entstand. Die Wiederherstellung der Moore zielt daher auf natürliche Bedingungen – vor allem einen intakten Wasserhaushalt – und benötigt gezielte Impulse und viel Zeit.\n",
-    "accepted": true,
     "author": "Audrey Reilly",
     "plantCommonName": "Rundblättriger Sonnentau",
     "plantBotanicalName": "Drosera rotundifolia L.",
     "artworkYear": "2024",
-    "artworkSize": "34 x 41 cm",
+    "artworkSize": "34×41cm",
     "artworkTechnique": "Aquarell auf Papier",
-    "contact": "www.audreyreilly-art.de, @audrey.reilly"
+    "contactWebsite": "www.audreyreilly-art.de",
+    "contactSocial": "@audrey.reilly"
   },
   {
     "src": "/src/img/4.jpg",
@@ -50,14 +49,13 @@ const galleryPhotosRaw = [
     "height": 3508,
     "title": "Bog rosemary",
     "description": "Andromeda polifolia, die Rosmarinheide, wächst ausschließlich in Hochmooren kälterer Regionen. Der kleine, immergrüne Zwergstrauch mit zierlichen rosa Blüten ist in den nördlichen Gebieten Nordamerikas, Asiens und Europas verbreitet.\n\nIhr Bestand geht jedoch stark zurück - in England und Irland ist die Art bereits stark dezimiert. Der Lebensraum Hochmoor hat unter Entwässerung, Aufforstung und Torfabbau gelitten, was die Rosmarinheide immer seltener werden lässt. Ihr Verschwinden in Westeuropa ist meist eine direkte Folge der Moorentwässerung.\n\nHochmoore reagieren äußerst empfindlich. Entwässerung zerstört ihre ökologische Funktion für Artenschutz und Klima. Was über Jahrtausende entstand, wurde in kurzer Zeit zerstört. Die Wiederherstellung der Moore benötigt daher natürliche Bedingungen – vor allem einen intakten Wasserhaushalt – und braucht gezielte Maßnahmen sowie viel Zeit.\n",
-    "accepted": true,
     "author": "Audrey Reilly",
     "plantCommonName": "Rosmarinheide",
     "plantBotanicalName": "Andromeda polifolia",
     "artworkYear": "2024",
-    "artworkSize": "34 x 41cm",
+    "artworkSize": "34×41cm",
     "artworkTechnique": "Aquarell auf Papier",
-    "contact": "www.audreyreilly-art.com"
+    "contactWebsite": "www.audreyreilly-art.com"
   },
   {
     "src": "/src/img/5.jpg",
@@ -65,14 +63,13 @@ const galleryPhotosRaw = [
     "height": 2925,
     "title": "Purple Marshlock (Blume des Jahres 2025)",
     "description": "Das Sumpf-Blutauge kommt vom Tiefland bis ins Gebirge vor und besiedelt bevorzugt nasse, zeitweise überflutete Torf- und Schlammböden in Niedermooren. Es gedeiht besonders auf offenen Schlammstellen, wo es sich mit seinem langen Wurzelstock gut ausbreiten kann. Sogar auf Schwingrasen bildet es allmählich schwankende Teppiche auf der Wasseroberfläche mooriger Gewässer.\n\nAls Spezialist für den stark bedrohten Lebensraum Moor steht die Art in vielen Regionen auf der Roten Liste. Die Loki Schmidt Stiftung hat sie zur Blume des Jahres 2025 ernannt.\n\nHochmoore reagieren äußerst empfindlich auf Störungen. Entwässerung und Nährstoffeintrag zerstören ihre ökologischen Funktionen für Artenschutz und Klima. Was über Jahrtausende entstand, wurde in kurzer Zeit zerstört. Die Wiederherstellung der Moore zielt daher auf natürliche Bedingungen – besonders einen intakten Wasserhaushalt – und benötigt gezielte Maßnahmen und viel Zeit.",
-    "accepted": true,
     "author": "Audrey Reilly",
     "plantCommonName": "Blutauge, Sumpf-Fingerkraut",
     "plantBotanicalName": "Comarum palustre",
     "artworkYear": "2024",
-    "artworkSize": "40 x 50cm",
+    "artworkSize": "40×50cm",
     "artworkTechnique": "Aquarell auf Papier",
-    "contact": "www.audreyreilly-art.com"
+    "contactWebsite": "www.audreyreilly-art.com"
   },
   {
     "src": "/src/img/6.jpg",
@@ -80,14 +77,13 @@ const galleryPhotosRaw = [
     "height": 1536,
     "title": "Echte Lungenflechte ",
     "description": "Durch Luftverschmutzung und die Zerstörung ihrer Lebensräume u. a. durch intensive forstwirtschaftliche Nutzung steht die Echte Lungenflechte mittlerweile in Deutschland auf der Roten Liste und gilt als \"Vom Aussterben bedroht\".\nDenn sie benötigt sehr saubere Luft, alte Bäume und eine hohe Luftfeuchtigkeit, um zu gedeihen. ",
-    "accepted": true,
     "author": "Katrin Koch ",
     "plantCommonName": "Echte Lungenflechte ",
     "plantBotanicalName": "Lobaria pulmonaria ",
     "artworkYear": "2025",
-    "artworkSize": "7,5cm ×26cm",
+    "artworkSize": "7.5×26cm",
     "artworkTechnique": "Graphit und Farbstift auf Papier /Fabriano Artistico Hot Pressed \"Extra White\" ",
-    "contact": "malusred@gmx.de "
+    "contactEmail": "malusred@gmx.de"
   },
   {
     "src": "/src/img/9.png",
@@ -95,14 +91,15 @@ const galleryPhotosRaw = [
     "height": 5400,
     "title": "Der Stern der Alpen",
     "description": "Das Edelweiß ist in seinem natürlichen Lebensraum nach wie vor durch übertriebenes Pflücken bedroht. An vielen leicht zugänglichen Standorten war es dadurch fast ausgestorben. Seit die Art in vielen Ländern und Regionen unter Naturschutz steht, haben sich die Bestände in der freien Natur erholt. Die wilden Pflanzen sind jedoch nach wie vor durch unkontrolliertes Sammeln und Lebensraumverlust bedroht.\n\nDie Pflanze wird gerne in vielen Gärten kultiviert. Kulturpflanzen sehen im Vergleich zu Wildpflanzen meist anders aus. Sie sind oft deutlich höher und weniger weiß behaart. Die hier abgebildete Pflanze ist ein Kulturexemplar.",
-    "accepted": true,
     "author": "Maxim Shirshin",
     "plantCommonName": "Alpen-Edelweiß",
     "plantBotanicalName": "Leontopodium nivale",
     "artworkYear": "2025",
-    "artworkSize": "21x29.7",
+    "artworkSize": "21×29.7cm",
     "artworkTechnique": "Buntstifte auf Papier",
-    "contact": "+447376444778\nmax.shirshin@gmail.com\nhttps://www.instagram.com/max.shirshin/"
+    "contactPhone": "+447376444778",
+    "contactEmail": "max.shirshin@gmail.com",
+    "contactWebsite": "https://www.instagram.com/max.shirshin/"
   },
   {
     "src": "/src/img/13.jpg",
@@ -110,14 +107,13 @@ const galleryPhotosRaw = [
     "height": 4181,
     "title": "Frauenschuh",
     "description": "Der Frauenschuh gilt nach der Roten Liste als gefährdet und ist nach der Bundesartenschutzverordnung streng geschützt. Er steht auch unter besonderem Schutz der Europäischen Union. \nAls ursächlich für die Gefährdung wird vor allem die weitreichende Forstwirtschaft gesehen, die eine natürliche Waldentwicklung und -dynamik kaum zulässt. Fototourismus trägt zu einem Rückgang der Art bei, da der Boden sich durch häufiges Betreten verdichtet und dadurch neuen Exemplaren eine Ansiedlung erschwert wird. \nAuch Pflanzenliebhaber, die den Frauenschuh ausgraben, tragen wesentlich zum Rückgang der verbliebenen Vorkommen bei.\n (Vgl. https://de.wikipedia.org/wiki/Gelber_Frauenschuh, 08.10.2025)",
-    "accepted": true,
     "author": "Leslie Bocker",
     "plantCommonName": "Frauenschuh",
     "plantBotanicalName": "Cypripedium calceolus L.",
     "artworkYear": "2025",
-    "artworkSize": "25 x 50",
+    "artworkSize": "25×50cm",
     "artworkTechnique": "Aquarell",
-    "contact": "Instagram: leslie.bocker"
+    "contactSocial": "leslie.bocker"
   },
   {
     "src": "/src/img/15.jpg",
@@ -125,14 +121,13 @@ const galleryPhotosRaw = [
     "height": 2709,
     "title": "Kastanie",
     "description": "Die Rosskastanie hierzulande hat gleich mit mehreren Problemen auf einmal zu kämpfen: Zum einen mit der sogenannten Miniermotte, zum anderen mit einem Bakterium namens Pseudomonas. Auch der Klimawandel stresst die Bäume zunehmend. Die Weltnaturschutzunion (IUCN) hat die Gewöhnliche Rosskastanie deshalb mittlerweile als \"gefährdet\" eingestuft.\n( https://www.oekotest.de/freizeit-technik/Kastanienblaetter-schon-im-Sommer-braun-So-reagieren-Sie-richtig_12142_1.html, 25.09.2025)",
-    "accepted": true,
     "author": "Leslie Bocker",
     "plantCommonName": "Gewöhnliche Rosskastanie",
     "plantBotanicalName": "Aesculus hippocastanum",
     "artworkYear": "2024",
-    "artworkSize": "25 x 23",
+    "artworkSize": "25×23cm",
     "artworkTechnique": "Aquarell",
-    "contact": "Instagram: leslie.bocker"
+    "contactSocial": "leslie.bocker"
   },
   {
     "src": "/src/img/16.jpg",
@@ -140,14 +135,14 @@ const galleryPhotosRaw = [
     "height": 4802,
     "title": "Maiglöckchen",
     "description": "Diese zarte Blume wächst in vielen europäischen Ländern in der freien Natur, jedoch ist die Anzahl der Pflanzen sehr gering. In vielen Ländern ist das Pfücken der Blumen verboten, wie z.B. im Ruhrgebiet in Deutschland. Obwohl in Deutschland kleine Sträußchen für den Eigenbedarf erlaubt sind, ist das Ausgraben der unterirdischen Teile wie der Rhizome in der freien Natur untersagt, um die Bestände zu erhalten. ",
-    "accepted": true,
     "author": "Nadiya Kyrylenko",
     "plantCommonName": "Maiglöckchen",
     "plantBotanicalName": "Convallaria majalis",
     "artworkYear": "2025",
-    "artworkSize": "30x40 cm",
+    "artworkSize": "30×40cm",
     "artworkTechnique": "Mischtechnik: Aquarell und Bleistift",
-    "contact": "Nadiya Kyrylenko, Tel. 01791314354, https://www.instagram.com/nadiya_kyrylenko/"
+    "contactPhone": "01791314354",
+    "contactWebsite": "https://www.instagram.com/nadiya_kyrylenko/"
   },
   {
     "src": "/src/img/17.jpg",
@@ -155,14 +150,13 @@ const galleryPhotosRaw = [
     "height": 6660,
     "title": "Stille der Frühlingswiesen",
     "description": "Schachblume (Fritillaria meleagris)\nAquarell und Graphit auf Papier\n\nEine seltene, in Deutschland geschützte Art.\nIhre natürlichen Lebensräume – feuchte Wiesen und Flussauen – verschwinden nach und nach, und mit ihnen verschwindet auch die Schachblume.\nZart und zugleich widerstandsfähig verkörpert sie die Idee des Überlebens durch Sanftheit.\nDiese Arbeit ist eine Hommage an ihre stille Schönheit und ihre flüchtige Präsenz in der Natur.",
-    "accepted": true,
     "author": "Lesia Zaitseva",
     "plantCommonName": "Schachblume (Fritillaria meleagris)",
     "plantBotanicalName": "Fritillaria meleagris",
     "artworkYear": "2025",
-    "artworkSize": "56*56",
+    "artworkSize": "56×56cm",
     "artworkTechnique": "Aquarell und Graphit auf Papier Saunders Waterford HP 425 g/m²",
-    "contact": "Lesia_botanicalart"
+    "contactSocial": "Lesia_botanicalart"
   },
   {
     "src": "/src/img/18.jpg",
@@ -170,14 +164,13 @@ const galleryPhotosRaw = [
     "height": 3478,
     "title": "Lion's Tooth (Deutscher Löwenzahn)",
     "description": "Der deutsche Löwenzahn (Taraxacum germanium), einst Teil der einheimischen Flora Deutschlands, ist heute vom Aussterben bedroht und überlebt nur noch an wenigen verstreuten Standorten in Hessen, Unterfranken und Oberbayern. Die meisten dieser Populationen bestehen aus nur wenigen einzelnen Pflanzen und überschreiten selten fünfzig Exemplare. Diese Art gedeiht in Niederungs-Feuchtwiesen, oft auf leicht salzhaltigen Böden, doch ihre Empfindlichkeit gegenüber Düngung und Störungen des Lebensraums hat sie äußerst verletzlich gemacht. Landwirtschaftliche Intensivierung, Lebensraumverlust und Verschmutzung haben sie an den Rand des Aussterbens gedrängt.\n\nWährend der Gewöhnliche Löwenzahn (Taraxacum officinale) heute noch weit verbreitet ist, werden auch seine natürlichen Lebensräume zunehmend durch ähnliche Bedrohungen – Herbizideinsatz, Monokultur-Landwirtschaft, städtische Bebauung und den Klimawandel – beeinträchtigt. Wenn diese Belastungen anhalten, könnte selbst diese widerstandsfähige und weit verbreitete Pflanze dem Beispiel des deutschen Löwenzahns folgen und zurückgehen – ein mahnendes Zeichen dafür, dass keine Art vor den Folgen menschengemachter Umweltveränderungen gefeit ist.",
-    "accepted": true,
     "author": "Kate Rolshoven",
     "plantCommonName": "Deutscher Löwenzahn",
     "plantBotanicalName": "Taraxacum germanicum",
     "artworkYear": "2023",
-    "artworkSize": "56 x 76",
+    "artworkSize": "56×76cm",
     "artworkTechnique": "Aquarell on Arches 640gsm Baumwollpapier",
-    "contact": "www.katerolshovenart.com \nhttps://www.instagram.com/katerolshovenart/"
+    "contactWebsite": "www.katerolshovenart.com, https://www.instagram.com/katerolshovenart/"
   },
   {
     "src": "/src/img/19.jpg",
@@ -185,14 +178,13 @@ const galleryPhotosRaw = [
     "height": 7014,
     "title": "Beta vulgaris",
     "description": "Die wilde Rübe die Urpflanze unseres heutigen Mangolds und der Roten Bete. Die Wildform gilt in Deutschland als potenziell gefährdet. Auf Helgoland, wo sie früher weit verbreitet war, gibt es noch einige wenige Bestände. Die Beta vulgaris wurde sonst nur noch an einigen Orten an der Ostseeküste verzeichnet.",
-    "accepted": true,
     "author": "Manuela Herhaus",
     "plantCommonName": "Wilde Rübe",
     "plantBotanicalName": "Beta vulgaris",
     "artworkYear": "2025",
-    "artworkSize": "30 x 42",
+    "artworkSize": "30×42cm",
     "artworkTechnique": "Tusche auf Zeichenfolie mit Beschreibung auf Papier",
-    "contact": "herhaus@wortimpulse.de"
+    "contactEmail": "herhaus@wortimpulse.de"
   },
   {
     "src": "/src/img/22.jpg",
@@ -200,14 +192,12 @@ const galleryPhotosRaw = [
     "height": 3425,
     "title": "Deutsche Ufertamariske",
     "description": "In Bayern vom Aussterben bedroht.",
-    "accepted": true,
     "author": "Elisabeth Lázár ",
     "plantCommonName": "Deutsche Ufertamariske",
     "plantBotanicalName": "Myricaria germanica",
     "artworkYear": "2025",
-    "artworkSize": "29x29",
-    "artworkTechnique": "Graphit, Papier",
-    "contact": ""
+    "artworkSize": "29×29cm",
+    "artworkTechnique": "Graphit, Papier"
   },
   {
     "src": "/src/img/23.jpg",
@@ -215,14 +205,12 @@ const galleryPhotosRaw = [
     "height": 3155,
     "title": "Karlszepter-Läusekraut",
     "description": "In Bayern stark gefährdet.",
-    "accepted": true,
     "author": "Elisabeth Lázár",
     "plantCommonName": "Karlszepter-Läusekraut",
     "plantBotanicalName": "Pedicularis sceptrum-carolinum L.",
     "artworkYear": "2025",
-    "artworkSize": "21x27",
-    "artworkTechnique": "Tinte, Papier",
-    "contact": ""
+    "artworkSize": "21×27cm",
+    "artworkTechnique": "Tinte, Papier"
   },
   {
     "src": "/src/img/24.jpg",
@@ -230,14 +218,12 @@ const galleryPhotosRaw = [
     "height": 4943,
     "title": "Karlszepter-Läusekraut",
     "description": "In Bayern stark gefährdet ",
-    "accepted": true,
     "author": "Elisabeth Lázár ",
     "plantCommonName": "Karlszepter-Läusekraut",
     "plantBotanicalName": "Pedicularis sceptrum-carolinum L.",
     "artworkYear": "2025",
-    "artworkSize": "28x42",
-    "artworkTechnique": "Aquarell, Graphit, Papier",
-    "contact": ""
+    "artworkSize": "28×42cm",
+    "artworkTechnique": "Aquarell, Graphit, Papier"
   },
   {
     "src": "/src/img/25.jpg",
@@ -245,14 +231,13 @@ const galleryPhotosRaw = [
     "height": 2048,
     "title": "Geweihförmige Wiesenkoralle ",
     "description": "Durch die intensive Nutzung ihres speziellen Lebensraumes - dem Magerrasen, gingen die Bestände dieser Art in den letzten Jahrzehnten deutlich zurück und die Geweihförmige Wiesenkoralle steht mittlerweile als \"Gefährdet\" auf der Roten Liste in Deutschland.\nDenn Überdüngung, Bebauung und Überwässerung verändert ihr Ökosystem und so ist der Lebensraum mittlerweile nur noch selten in unserer Landschaft zu finden. ",
-    "accepted": true,
     "author": "Katrin Koch ",
     "plantCommonName": "Geweihförmige Wiesenkoralle ",
     "plantBotanicalName": "Clavulinopsis corniculata",
     "artworkYear": "2025",
-    "artworkSize": "11cm×11,8cm ",
+    "artworkSize": "11×11.8cm",
     "artworkTechnique": "Farbstift auf Papier /Fabriano Artistico Hot Pressed \"Extra White\" ",
-    "contact": "malusred@gmx.de "
+    "contactEmail": "malusred@gmx.de"
   },
   {
     "src": "/src/img/26.jpg",
@@ -260,14 +245,13 @@ const galleryPhotosRaw = [
     "height": 7020,
     "title": "Vom Blühen und Reifen",
     "description": "Die Preiselbeere steht unter Druck: Durch den Rückgang naturnaher Moore und lichter Nadelwälder verliert sie zunehmend ihren Lebensraum. Entwässerung, Forstwirtschaft und der Klimawandel setzen ihren Beständen zu – vielerorts gilt sie deshalb bereits als gefährdet.",
-    "accepted": true,
     "author": "Daria Beizerov",
     "plantCommonName": "Preiselbeere",
     "plantBotanicalName": "Vaccinium vitis-idaea",
     "artworkYear": "2025",
-    "artworkSize": "41 x 31 cm",
+    "artworkSize": "41×31cm",
     "artworkTechnique": "Aquarell auf Papier (HP)",
-    "contact": "https://www.instagram.com/daria.botanicals/"
+    "contactWebsite": "https://www.instagram.com/daria.botanicals/"
   },
   {
     "src": "/src/img/28.jpg",
@@ -275,14 +259,14 @@ const galleryPhotosRaw = [
     "height": 4695,
     "title": "Weiße Schlauchpflanze",
     "description": "Die Weiße Schlauchpflanze (Sarracenia leucophylla) kommt ursprünglich im Südosten der Vereinigten Staaten vor, insbesondere in Alabama, Georgia, Florida und Mississippi. Obwohl sie dort noch in der Wildnis vorkommt, ist sie durch das Sammeln zu Dekorationszwecken und durch Landentwicklung bedroht. Daher ist sie in der Roten Liste der bedrohten Arten der IUCN aufgeführt. Als Zimmerpflanze ist sie beliebt, weil sie mit ihren auffällig gezeichneten Schläuchen und ihrer Fähigkeit, Insekten zu fangen, ein außergewöhnliches und dekoratives Element darstellt.",
-    "accepted": true,
     "author": "Sophie Crossart",
     "plantCommonName": "Weiße Schlauchpflanze",
     "plantBotanicalName": "Sarracenia leucophylla",
     "artworkYear": "2025",
-    "artworkSize": "17 x 20",
+    "artworkSize": "17×20cm",
     "artworkTechnique": "Aquarell und ein wenig Gouache auf Kalbsvellum",
-    "contact": "contact@sophiecrossart.com, www.sophiecrossart.com, instagram.com/sophiecrossart"
+    "contactEmail": "contact@sophiecrossart.com",
+    "contactWebsite": "www.sophiecrossart.com, instagram.com/sophiecrossart"
   },
   {
     "src": "/src/img/29.png",
@@ -290,14 +274,13 @@ const galleryPhotosRaw = [
     "height": 4963,
     "title": "Zahnbürstchenwiese",
     "description": "Hallo Max, dies ist die verbesserte Version meiner ersten Einreichung \"Schlangenknöterich\" Bitte verwende diese Vorlage in der Veröffentlichung, auch den Titel\n\n \"Zahnbürstchenwiese\". \n\nDanke!\n\nDer Schlangenknöterich ist eine typische Pflanze feuchter, artenreicher Lebensräume. Er wächst bevorzugt in Feuchtwiesen, an den Ufern von Bächen, an Moorrändern sowie in lichten Auwäldern. Doch sind diese Lebensräume zunehmend im Rückgang begriffen. \nTrockenlegungen, intensive Bewirtschaftung durch die Landwirtschaft und das Verschwinden naturnaher Auwälder führen zum Verlust geeigneter Standorte. \nHinzu kommen die Auswirkungen des Klimawandels.\nDer Schlangenknöterich steht in Bayern auf Platz 3 der Gefährdungsliste.\nSo wird er zunehmend zum Symbol für die bedrohte Schönheit unserer Feuchtlandschaften.",
-    "accepted": true,
     "author": "Susanne Jampen",
     "plantCommonName": "Schlangenknöterich",
     "plantBotanicalName": "Bistorta officinalis",
     "artworkYear": "Sommer 2025",
-    "artworkSize": "B 20 cm x H 32 cm",
+    "artworkSize": "20×32cm",
     "artworkTechnique": "Aquarell auf Fabriano artistico hot press",
-    "contact": "s.jampen@icloud.com"
+    "contactEmail": "s.jampen@icloud.com"
   },
   {
     "src": "/src/img/30.jpg",
@@ -305,14 +288,13 @@ const galleryPhotosRaw = [
     "height": 3003,
     "title": "Sumpf-Herzblatt",
     "description": "Diese seltene Pflanze gehört zu den Steinbrech-Gewächsen und steht auf der Roten Liste Bayerns und gilt als gefährdet. Ursache für die Gefährdung der Pflanze sind etwa die Entwässerung und Aufforstung von Moor-Standorten oder Trockenlegungen von Feuchtwiesen. Aber auch durch die Eutrophierungen, sprich Dünger-Eintragungen, werde die konkurrenzschwache Art zurückgedrängt (https://pfaffenhofen-today.de/46272-p-serie-sumpf-herzblatt. 08.10.2025)",
-    "accepted": true,
     "author": "Leslie Bocker",
     "plantCommonName": "Sumpf-Herzblatt",
     "plantBotanicalName": "Parnassia palustris",
     "artworkYear": "2025",
-    "artworkSize": "31 x 39",
+    "artworkSize": "31×39cm",
     "artworkTechnique": "Aquarell",
-    "contact": "Instagram: leslie.bocker"
+    "contactSocial": "leslie.bocker"
   },
   {
     "src": "/src/img/31.jpg",
@@ -320,14 +302,13 @@ const galleryPhotosRaw = [
     "height": 2008,
     "title": "Die Geneigte",
     "description": "Die Bach-Nelkenwurz ist eine typische Pflanze in feuchten Lebensräumen. Sie wächst in Flachmooren, Feuchtwiesen, an Bächen und Teichufern und am Rande von Auwäldern.\nTrotz ihres ursprünglich großen Verbreitungsareals gilt die Bach-Nelkenwurz in mehreren deutschen Bundesländern mittlerweile als gefährdet und ist dort auf den regionalen roten Listen verzeichnet. \nDie Hauptursachen dafür liegen in der Zerstörung und Veränderung der Lebensräume.\nDie Trockenlegung von Feuchtgebieten, die Intensivnutzung der Wiesen, und das Verschwinden der naturnahen Auwälder führen zu einem drastischen Rückgang der Standorte. Dazu kommen die durch den Klimawandel veränderten Niederschlagsmuster und die steigenden Temperaturen, die zur Austrocknung der Lebensräume beitragen.",
-    "accepted": true,
     "author": "Susanne Jampen",
     "plantCommonName": "Bach-Nelkenwurz",
     "plantBotanicalName": "Geum rivale",
     "artworkYear": "Sommer 2024",
-    "artworkSize": "B 20cm X H 32cm",
+    "artworkSize": "20×32cm",
     "artworkTechnique": "Aquarell auf Fabriano Artistico hot pressd ",
-    "contact": "s.jampen@icloud.com"
+    "contactEmail": "s.jampen@icloud.com"
   },
   {
     "src": "/src/img/32.jpg",
@@ -335,14 +316,13 @@ const galleryPhotosRaw = [
     "height": 3002,
     "title": "Enzian",
     "description": "Die Pflanze ist in Deutschland nur in den Alpen anzutreffen. Gentiana acaulis steht wie alle Enzianarten unter Naturschutz und ist als \"gefährdet\" einestuft.(Rote Liste  Zentrum)",
-    "accepted": true,
     "author": "Brigitte Rückle",
     "plantCommonName": "Kiesel-Glocken-Enzian",
     "plantBotanicalName": "Gentiana acaulis",
     "artworkYear": "2025",
-    "artworkSize": "31,50 cm x 29,50 cm",
+    "artworkSize": "31.5×29.5cm",
     "artworkTechnique": "Buntstifte ",
-    "contact": "Brigitte Rückle c/ o VBKD"
+    "contactNote": "Brigitte Rückle c/ o VBKD"
   },
   {
     "src": "/src/img/33.jpg",
@@ -350,14 +330,12 @@ const galleryPhotosRaw = [
     "height": 3246,
     "title": "Platterbse/ Duftwicke",
     "description": "Verschiedene Naturformen der Platterbse stehen auf der Roten Liste der Farn u. Blütenpflanzen der TU Berlin. ",
-    "accepted": true,
     "author": "Margitta Baum",
     "plantCommonName": "Platterbse",
     "plantBotanicalName": "Lathyrus sp.",
     "artworkYear": "2025",
-    "artworkSize": "ca.30cmx40cm",
-    "artworkTechnique": "Aquarell / Papier",
-    "contact": "keine"
+    "artworkSize": "30×40cm",
+    "artworkTechnique": "Aquarell / Papier"
   },
   {
     "src": "/src/img/34.jpg",
@@ -365,14 +343,13 @@ const galleryPhotosRaw = [
     "height": 400,
     "title": "Die Früchte des Olivenbaums",
     "description": "Das Olivenbaumsterben wurde in Europa zuerst in Süditalien festgestellt. Ursache - das Bakterium Xylella fastidiosa. Abgesehen davon wurden die Olivenhaine durch die Waldbrände in Südeuropa stark in Mitleidenschaft gezogen.  Dies lässt sich auch an den höheren Olivenölpreisen den Supermärkten erkennen.",
-    "accepted": true,
     "author": "Sue Hénon",
     "plantCommonName": "Olive",
     "plantBotanicalName": "Olea europaea",
     "artworkYear": "2024",
-    "artworkSize": "50 x 70",
+    "artworkSize": "50×70cm",
     "artworkTechnique": "Farbstift und Graphit auf Papier",
-    "contact": "atelierhenon@googlemail.com"
+    "contactEmail": "atelierhenon@googlemail.com"
   },
   {
     "src": "/src/img/35.jpg",
@@ -380,23 +357,18 @@ const galleryPhotosRaw = [
     "height": 3508,
     "title": "Sanddorn ",
     "description": "Der Sanddorn wächst in Graudünen, deren Fortbestand durch äußere Einflüsse – unter anderem Abfälle und Trittschäden – beeinträchtigt wird. An vielen Orten wird der Sanddorn durch die Ausbreitung der nichtheimischen Kartoffelrose seines Lebensraums beraubt.",
-    "accepted": true,
     "author": "Yana Andryeyeva",
     "plantCommonName": "Sanddorn",
     "plantBotanicalName": "Hippophae rhamnoides",
     "artworkYear": "2025",
-    "artworkSize": "30x40 cm",
+    "artworkSize": "30×40cm",
     "artworkTechnique": "Aquarell auf Papier (Echt-Bütten von Hahnemühle, hot pressed, satiniert, 600 g/m², ",
-    "contact": "info@andryeyeva.de, @andryeyevart (Instagram)"
+    "contactEmail": "info@andryeyeva.de",
+    "contactSocial": "@andryeyevart (Instagram)"
   }
 ];
 
 // filter out entries that were explicitly marked as not accepted, then
 // export the processed list where title is set to the filename
 export const galleryPhotos = galleryPhotosRaw
-  .map(p => {
-    // The title is already updated from the CSV, so we don't need to override it with the filename.
-    // If you still want the filename as a fallback or as a separate property, you could add it here.
-    // For now, we'll just return the object as is, since the data is pre-processed.
-    return p;
-  });
+  .map(p => p);

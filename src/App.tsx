@@ -7,7 +7,19 @@ import './App.css'
 import { galleryPhotos } from './galleryData'
 
 type PhotoSpec = Photo & Slide & {
-  description: string
+  title: string;
+  description: string;
+  author: string;
+  plantCommonName: string;
+  plantBotanicalName: string;
+  artworkYear: string;
+  artworkSize: string;
+  artworkTechnique: string;
+  contactEmail?: string;
+  contactPhone?: string;
+  contactWebsite?: string;
+  contactSocial?: string;
+  contactNote?: string;
 }
 
 function App() {
@@ -62,7 +74,7 @@ function App() {
                   targetRowHeight={400}
                   render={{
                   extras: (_, { photo, index }) => (
-                    <div className="gallery-image-title">{photo.title}</div>
+                    <div className="gallery-image-title">{photo.author} - {photo.title}</div>
                   ),
                 }}
                 />
