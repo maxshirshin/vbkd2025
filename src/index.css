@@ -23,3 +23,7 @@ button {
   border: none;
   cursor: pointer;
 }
+
+.yarl__navigation_next {
+  height: calc(100% - 150px);
+}

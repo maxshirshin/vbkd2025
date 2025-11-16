@@ -117,7 +117,7 @@ export const galleryPhotos = [
     "artworkTechnique": "Buntstifte auf Papier",
     "contactPhone": "+447376444778",
     "contactEmail": "max.shirshin@gmail.com",
-    "contactWebsite": "https://www.instagram.com/max.shirshin/",
+    "contactSocial": "max.shirshin",
     "lowSrc": "/src/thumbs/9.png",
     "lowWidth": 400,
     "lowHeight": 500
