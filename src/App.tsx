@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { RowsPhotoAlbum as PhotoAlbum, type Photo } from 'react-photo-album';
 import Lightbox, { type Slide } from 'yet-another-react-lightbox';
 import 'react-photo-album/rows.css';
@@ -21,13 +21,51 @@ type PhotoSpec = Photo &
     contactWebsite?: string;
     contactSocial?: string;
     contactNote?: string;
+    lowSrc: string;
+    lowWidth: number;
+    lowHeight: number;
   };
 
 function App() {
   const [activeTab, setActiveTab] = useState('home');
   const [index, setIndex] = useState(-1);
 
-  const photos: PhotoSpec[] = galleryPhotos;
+  // Read image index from URL on mount
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const imageIndex = params.get('image');
+    if (imageIndex) {
+      const idx = parseInt(imageIndex, 10);
+      if (!isNaN(idx) && idx >= 0 && idx < galleryPhotos.length) {
+        setIndex(idx);
+      }
+    }
+  }, []);
+
+  // Update URL when index changes
+  useEffect(() => {
+    if (index >= 0) {
+      const params = new URLSearchParams(window.location.search);
+      params.set('image', index.toString());
+      window.history.replaceState(null, '', `?${params.toString()}`);
+    } else {
+      window.history.replaceState(null, '', window.location.pathname);
+    }
+  }, [index]);
+
+  const albumPhotos: PhotoSpec[] = JSON.parse(
+    JSON.stringify(galleryPhotos)
+  ) as PhotoSpec[];
+  const lightboxPhotos: PhotoSpec[] = JSON.parse(
+    JSON.stringify(galleryPhotos)
+  ) as PhotoSpec[];
+
+  for (const p of albumPhotos) {
+    p.src = p.lowSrc;
+    p.width = p.lowWidth;
+    p.height = p.lowHeight;
+    p.alt = p.title;
+  }
 
   return (
     <div className="app-container">
@@ -71,13 +109,13 @@ function App() {
             </p>
             <div className="gallery-container">
               <PhotoAlbum
-                photos={photos}
+                photos={albumPhotos}
                 onClick={({ index }) => setIndex(index)}
                 spacing={8}
                 padding={0}
                 targetRowHeight={400}
                 render={{
-                  extras: (_, { photo, index }) => (
+                  extras: (_, { photo }) => (
                     <div className="gallery-image-title">
                       {photo.author} - {photo.title}
                     </div>
@@ -85,7 +123,7 @@ function App() {
                 }}
               />
               <Lightbox
-                slides={photos}
+                slides={lightboxPhotos}
                 open={index >= 0}
                 index={index}
                 close={() => setIndex(-1)}
@@ -98,38 +136,100 @@ function App() {
                   slide: ({ slide }) => (
                     <div className="b-content">
                       <div className="b-content__pic">
-                        <img src={slide.src} alt={photos[index].title} />
+                        <img
+                          src={slide.src}
+                          alt={lightboxPhotos[index]?.title ?? ''}
+                        />
                       </div>
                       <div className="b-content__info">
                         <div className="b-content__author">
-                          {photos[index].author}
+                          {lightboxPhotos[index]?.author}
+                        </div>
+                        <div>
+                          {lightboxPhotos[index]?.contactEmail && (
+                            <a
+                              className="b-content__meta"
+                              href={`mailto:${lightboxPhotos[index]?.contactEmail}`}
+                            >
+                              {lightboxPhotos[index]?.contactEmail}
+                            </a>
+                          )}
+                          {lightboxPhotos[index]?.contactPhone && (
+                            <a
+                              className="b-content__meta"
+                              href={`tel:${lightboxPhotos[index]?.contactPhone}`}
+                            >
+                              {lightboxPhotos[index]?.contactPhone}
+                            </a>
+                          )}
+                          {lightboxPhotos[index]?.contactSocial && (
+                            <a
+                              className="b-content__meta"
+                              href={
+                                /^https?:\/\//i.test(
+                                  lightboxPhotos[index]?.contactSocial || ''
+                                )
+                                  ? lightboxPhotos[index]?.contactSocial
+                                  : (
+                                      lightboxPhotos[index]?.contactSocial || ''
+                                    ).startsWith('@')
+                                  ? `https://instagram.com/${(
+                                      lightboxPhotos[index]?.contactSocial || ''
+                                    ).slice(1)}`
+                                  : `https://instagram.com/${lightboxPhotos[index]?.contactSocial}`
+                              }
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {lightboxPhotos[index]?.contactSocial}
+                            </a>
+                          )}
+                          {lightboxPhotos[index]?.contactWebsite && (
+                            <a
+                              className="b-content__meta"
+                              href={
+                                /^https?:\/\//i.test(
+                                  lightboxPhotos[index]?.contactWebsite || ''
+                                )
+                                  ? lightboxPhotos[index]?.contactWebsite
+                                  : `https://${lightboxPhotos[index]?.contactWebsite}`
+                              }
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {lightboxPhotos[index]?.contactWebsite}
+                            </a>
+                          )}
+                          {lightboxPhotos[index]?.contactNote && (
+                            <span className="b-content__meta">
+                              {lightboxPhotos[index]?.contactNote}
+                            </span>
+                          )}
                         </div>
                         <div className="b-content__title">
-                          {photos[index].title}
+                          {lightboxPhotos[index]?.title}
                         </div>
                         <div>
                           <span className="b-content__meta">
-                            {photos[index].artworkSize}
+                            {lightboxPhotos[index]?.artworkSize}
                           </span>
-                          {' • '}
                           <span className="b-content__meta">
-                            {photos[index].artworkYear}
+                            {lightboxPhotos[index]?.artworkYear}
                           </span>
-                          {' • '}
                           <span className="b-content__meta">
-                            {photos[index].artworkTechnique}
+                            {lightboxPhotos[index]?.artworkTechnique}
                           </span>
                         </div>
                         <div>
                           <span className="b-content__cn">
-                            {photos[index].plantCommonName}
+                            {lightboxPhotos[index]?.plantCommonName}
                           </span>{' '}
                           <span className="b-content__bn">
-                            ({photos[index].plantBotanicalName})
+                            ({lightboxPhotos[index]?.plantBotanicalName})
                           </span>
                         </div>
                         <div className="b-content__desc">
-                          {photos[index].description}
+                          {lightboxPhotos[index]?.description}
                         </div>
                       </div>
                     </div>

@@ -1,4 +1,4 @@
-const galleryPhotosRaw = [
+export const galleryPhotos = [
   {
     "src": "/src/img/1.jpg",
     "width": 3988,
@@ -12,7 +12,10 @@ const galleryPhotosRaw = [
     "artworkSize": "50×70cm",
     "artworkTechnique": "Farbstift auf Papier",
     "contactEmail": "atelierhenon@googlemail.com",
-    "contactPhone": "06071-21613"
+    "contactPhone": "06071-21613",
+    "lowSrc": "/src/thumbs/1.jpg",
+    "lowWidth": 400,
+    "lowHeight": 575
   },
   {
     "src": "/src/img/2.jpg",
@@ -26,7 +29,10 @@ const galleryPhotosRaw = [
     "artworkYear": "2025",
     "artworkSize": "29.7×42cm",
     "artworkTechnique": "Aquarell",
-    "contactWebsite": "https://www.instagram.com/kristintessen/"
+    "contactWebsite": "https://www.instagram.com/kristintessen/",
+    "lowSrc": "/src/thumbs/2.jpg",
+    "lowWidth": 400,
+    "lowHeight": 566
   },
   {
     "src": "/src/img/3.jpg",
@@ -40,8 +46,11 @@ const galleryPhotosRaw = [
     "artworkYear": "2024",
     "artworkSize": "34×41cm",
     "artworkTechnique": "Aquarell auf Papier",
-    "contactWebsite": "www.audreyreilly-art.de",
-    "contactSocial": "@audrey.reilly"
+    "contactWebsite": "www.audreyreilly-art.com",
+    "contactSocial": "@audrey.reilly",
+    "lowSrc": "/src/thumbs/3.jpg",
+    "lowWidth": 400,
+    "lowHeight": 566
   },
   {
     "src": "/src/img/4.jpg",
@@ -55,7 +64,10 @@ const galleryPhotosRaw = [
     "artworkYear": "2024",
     "artworkSize": "34×41cm",
     "artworkTechnique": "Aquarell auf Papier",
-    "contactWebsite": "www.audreyreilly-art.com"
+    "contactWebsite": "www.audreyreilly-art.com",
+    "lowSrc": "/src/thumbs/4.jpg",
+    "lowWidth": 400,
+    "lowHeight": 566
   },
   {
     "src": "/src/img/5.jpg",
@@ -69,7 +81,10 @@ const galleryPhotosRaw = [
     "artworkYear": "2024",
     "artworkSize": "40×50cm",
     "artworkTechnique": "Aquarell auf Papier",
-    "contactWebsite": "www.audreyreilly-art.com"
+    "contactWebsite": "www.audreyreilly-art.com",
+    "lowSrc": "/src/thumbs/5.jpg",
+    "lowWidth": 400,
+    "lowHeight": 493
   },
   {
     "src": "/src/img/6.jpg",
@@ -83,7 +98,10 @@ const galleryPhotosRaw = [
     "artworkYear": "2025",
     "artworkSize": "7.5×26cm",
     "artworkTechnique": "Graphit und Farbstift auf Papier /Fabriano Artistico Hot Pressed \"Extra White\" ",
-    "contactEmail": "malusred@gmx.de"
+    "contactEmail": "malusred@gmx.de",
+    "lowSrc": "/src/thumbs/6.jpg",
+    "lowWidth": 533,
+    "lowHeight": 400
   },
   {
     "src": "/src/img/9.png",
@@ -99,7 +117,10 @@ const galleryPhotosRaw = [
     "artworkTechnique": "Buntstifte auf Papier",
     "contactPhone": "+447376444778",
     "contactEmail": "max.shirshin@gmail.com",
-    "contactWebsite": "https://www.instagram.com/max.shirshin/"
+    "contactWebsite": "https://www.instagram.com/max.shirshin/",
+    "lowSrc": "/src/thumbs/9.png",
+    "lowWidth": 400,
+    "lowHeight": 500
   },
   {
     "src": "/src/img/13.jpg",
@@ -113,7 +134,10 @@ const galleryPhotosRaw = [
     "artworkYear": "2025",
     "artworkSize": "25×50cm",
     "artworkTechnique": "Aquarell",
-    "contactSocial": "leslie.bocker"
+    "contactSocial": "leslie.bocker",
+    "lowSrc": "/src/thumbs/13.jpg",
+    "lowWidth": 400,
+    "lowHeight": 500
   },
   {
     "src": "/src/img/15.jpg",
@@ -127,7 +151,10 @@ const galleryPhotosRaw = [
     "artworkYear": "2024",
     "artworkSize": "25×23cm",
     "artworkTechnique": "Aquarell",
-    "contactSocial": "leslie.bocker"
+    "contactSocial": "leslie.bocker",
+    "lowSrc": "/src/thumbs/15.jpg",
+    "lowWidth": 500,
+    "lowHeight": 400
   },
   {
     "src": "/src/img/16.jpg",
@@ -142,7 +169,10 @@ const galleryPhotosRaw = [
     "artworkSize": "30×40cm",
     "artworkTechnique": "Mischtechnik: Aquarell und Bleistift",
     "contactPhone": "01791314354",
-    "contactWebsite": "https://www.instagram.com/nadiya_kyrylenko/"
+    "contactWebsite": "https://www.instagram.com/nadiya_kyrylenko/",
+    "lowSrc": "/src/thumbs/16.jpg",
+    "lowWidth": 400,
+    "lowHeight": 531
   },
   {
     "src": "/src/img/17.jpg",
@@ -156,7 +186,10 @@ const galleryPhotosRaw = [
     "artworkYear": "2025",
     "artworkSize": "56×56cm",
     "artworkTechnique": "Aquarell und Graphit auf Papier Saunders Waterford HP 425 g/m²",
-    "contactSocial": "Lesia_botanicalart"
+    "contactSocial": "Lesia_botanicalart",
+    "lowSrc": "/src/thumbs/17.jpg",
+    "lowWidth": 400,
+    "lowHeight": 404
   },
   {
     "src": "/src/img/18.jpg",
@@ -170,7 +203,11 @@ const galleryPhotosRaw = [
     "artworkYear": "2023",
     "artworkSize": "56×76cm",
     "artworkTechnique": "Aquarell on Arches 640gsm Baumwollpapier",
-    "contactWebsite": "www.katerolshovenart.com, https://www.instagram.com/katerolshovenart/"
+    "contactWebsite": "www.katerolshovenart.com",
+    "contactSocial": "katerolshovenart",
+    "lowSrc": "/src/thumbs/18.jpg",
+    "lowWidth": 400,
+    "lowHeight": 535
   },
   {
     "src": "/src/img/19.jpg",
@@ -184,7 +221,10 @@ const galleryPhotosRaw = [
     "artworkYear": "2025",
     "artworkSize": "30×42cm",
     "artworkTechnique": "Tusche auf Zeichenfolie mit Beschreibung auf Papier",
-    "contactEmail": "herhaus@wortimpulse.de"
+    "contactEmail": "herhaus@wortimpulse.de",
+    "lowSrc": "/src/thumbs/19.jpg",
+    "lowWidth": 566,
+    "lowHeight": 400
   },
   {
     "src": "/src/img/22.jpg",
@@ -197,10 +237,13 @@ const galleryPhotosRaw = [
     "plantBotanicalName": "Myricaria germanica",
     "artworkYear": "2025",
     "artworkSize": "29×29cm",
-    "artworkTechnique": "Graphit, Papier"
+    "artworkTechnique": "Graphit, Papier",
+    "lowSrc": "/src/thumbs/22.jpg",
+    "lowWidth": 400,
+    "lowHeight": 403
   },
   {
-    "src": "/src/img/23.jpg",
+    "src": "/src/img/23.png",
     "width": 2484,
     "height": 3155,
     "title": "Karlszepter-Läusekraut",
@@ -210,7 +253,10 @@ const galleryPhotosRaw = [
     "plantBotanicalName": "Pedicularis sceptrum-carolinum L.",
     "artworkYear": "2025",
     "artworkSize": "21×27cm",
-    "artworkTechnique": "Tinte, Papier"
+    "artworkTechnique": "Tinte, Papier",
+    "lowSrc": "/src/thumbs/23.png",
+    "lowWidth": 400,
+    "lowHeight": 508
   },
   {
     "src": "/src/img/24.jpg",
@@ -223,7 +269,10 @@ const galleryPhotosRaw = [
     "plantBotanicalName": "Pedicularis sceptrum-carolinum L.",
     "artworkYear": "2025",
     "artworkSize": "28×42cm",
-    "artworkTechnique": "Aquarell, Graphit, Papier"
+    "artworkTechnique": "Aquarell, Graphit, Papier",
+    "lowSrc": "/src/thumbs/24.jpg",
+    "lowWidth": 400,
+    "lowHeight": 591
   },
   {
     "src": "/src/img/25.jpg",
@@ -237,7 +286,10 @@ const galleryPhotosRaw = [
     "artworkYear": "2025",
     "artworkSize": "11×11.8cm",
     "artworkTechnique": "Farbstift auf Papier /Fabriano Artistico Hot Pressed \"Extra White\" ",
-    "contactEmail": "malusred@gmx.de"
+    "contactEmail": "malusred@gmx.de",
+    "lowSrc": "/src/thumbs/25.jpg",
+    "lowWidth": 400,
+    "lowHeight": 600
   },
   {
     "src": "/src/img/26.jpg",
@@ -251,7 +303,10 @@ const galleryPhotosRaw = [
     "artworkYear": "2025",
     "artworkSize": "41×31cm",
     "artworkTechnique": "Aquarell auf Papier (HP)",
-    "contactWebsite": "https://www.instagram.com/daria.botanicals/"
+    "contactWebsite": "https://www.instagram.com/daria.botanicals/",
+    "lowSrc": "/src/thumbs/26.jpg",
+    "lowWidth": 529,
+    "lowHeight": 400
   },
   {
     "src": "/src/img/28.jpg",
@@ -266,21 +321,27 @@ const galleryPhotosRaw = [
     "artworkSize": "17×20cm",
     "artworkTechnique": "Aquarell und ein wenig Gouache auf Kalbsvellum",
     "contactEmail": "contact@sophiecrossart.com",
-    "contactWebsite": "www.sophiecrossart.com, instagram.com/sophiecrossart"
+    "contactWebsite": "www.sophiecrossart.com, instagram.com/sophiecrossart",
+    "lowSrc": "/src/thumbs/28.jpg",
+    "lowWidth": 400,
+    "lowHeight": 487
   },
   {
     "src": "/src/img/29.png",
     "width": 3508,
     "height": 4963,
     "title": "Zahnbürstchenwiese",
-    "description": "Hallo Max, dies ist die verbesserte Version meiner ersten Einreichung \"Schlangenknöterich\" Bitte verwende diese Vorlage in der Veröffentlichung, auch den Titel\n\n \"Zahnbürstchenwiese\". \n\nDanke!\n\nDer Schlangenknöterich ist eine typische Pflanze feuchter, artenreicher Lebensräume. Er wächst bevorzugt in Feuchtwiesen, an den Ufern von Bächen, an Moorrändern sowie in lichten Auwäldern. Doch sind diese Lebensräume zunehmend im Rückgang begriffen. \nTrockenlegungen, intensive Bewirtschaftung durch die Landwirtschaft und das Verschwinden naturnaher Auwälder führen zum Verlust geeigneter Standorte. \nHinzu kommen die Auswirkungen des Klimawandels.\nDer Schlangenknöterich steht in Bayern auf Platz 3 der Gefährdungsliste.\nSo wird er zunehmend zum Symbol für die bedrohte Schönheit unserer Feuchtlandschaften.",
+    "description": "Der Schlangenknöterich ist eine typische Pflanze feuchter, artenreicher Lebensräume. Er wächst bevorzugt in Feuchtwiesen, an den Ufern von Bächen, an Moorrändern sowie in lichten Auwäldern. Doch sind diese Lebensräume zunehmend im Rückgang begriffen. \nTrockenlegungen, intensive Bewirtschaftung durch die Landwirtschaft und das Verschwinden naturnaher Auwälder führen zum Verlust geeigneter Standorte. \nHinzu kommen die Auswirkungen des Klimawandels.\nDer Schlangenknöterich steht in Bayern auf Platz 3 der Gefährdungsliste.\nSo wird er zunehmend zum Symbol für die bedrohte Schönheit unserer Feuchtlandschaften.",
     "author": "Susanne Jampen",
     "plantCommonName": "Schlangenknöterich",
     "plantBotanicalName": "Bistorta officinalis",
     "artworkYear": "Sommer 2025",
     "artworkSize": "20×32cm",
     "artworkTechnique": "Aquarell auf Fabriano artistico hot press",
-    "contactEmail": "s.jampen@icloud.com"
+    "contactEmail": "s.jampen@icloud.com",
+    "lowSrc": "/src/thumbs/29.png",
+    "lowWidth": 400,
+    "lowHeight": 566
   },
   {
     "src": "/src/img/30.jpg",
@@ -294,7 +355,10 @@ const galleryPhotosRaw = [
     "artworkYear": "2025",
     "artworkSize": "31×39cm",
     "artworkTechnique": "Aquarell",
-    "contactSocial": "leslie.bocker"
+    "contactSocial": "leslie.bocker",
+    "lowSrc": "/src/thumbs/30.jpg",
+    "lowWidth": 400,
+    "lowHeight": 520
   },
   {
     "src": "/src/img/31.jpg",
@@ -308,7 +372,10 @@ const galleryPhotosRaw = [
     "artworkYear": "Sommer 2024",
     "artworkSize": "20×32cm",
     "artworkTechnique": "Aquarell auf Fabriano Artistico hot pressd ",
-    "contactEmail": "s.jampen@icloud.com"
+    "contactEmail": "s.jampen@icloud.com",
+    "lowSrc": "/src/thumbs/31.jpg",
+    "lowWidth": 400,
+    "lowHeight": 563
   },
   {
     "src": "/src/img/32.jpg",
@@ -322,7 +389,10 @@ const galleryPhotosRaw = [
     "artworkYear": "2025",
     "artworkSize": "31.5×29.5cm",
     "artworkTechnique": "Buntstifte ",
-    "contactNote": "Brigitte Rückle c/ o VBKD"
+    "contactNote": "Brigitte Rückle c/ o VBKD",
+    "lowSrc": "/src/thumbs/32.jpg",
+    "lowWidth": 451,
+    "lowHeight": 400
   },
   {
     "src": "/src/img/33.jpg",
@@ -335,7 +405,10 @@ const galleryPhotosRaw = [
     "plantBotanicalName": "Lathyrus sp.",
     "artworkYear": "2025",
     "artworkSize": "30×40cm",
-    "artworkTechnique": "Aquarell / Papier"
+    "artworkTechnique": "Aquarell / Papier",
+    "lowSrc": "/src/thumbs/33.jpg",
+    "lowWidth": 400,
+    "lowHeight": 472
   },
   {
     "src": "/src/img/34.jpg",
@@ -349,7 +422,10 @@ const galleryPhotosRaw = [
     "artworkYear": "2024",
     "artworkSize": "50×70cm",
     "artworkTechnique": "Farbstift und Graphit auf Papier",
-    "contactEmail": "atelierhenon@googlemail.com"
+    "contactEmail": "atelierhenon@googlemail.com",
+    "lowSrc": "/src/thumbs/34.jpg",
+    "lowWidth": 400,
+    "lowHeight": 576
   },
   {
     "src": "/src/img/35.jpg",
@@ -364,11 +440,9 @@ const galleryPhotosRaw = [
     "artworkSize": "30×40cm",
     "artworkTechnique": "Aquarell auf Papier (Echt-Bütten von Hahnemühle, hot pressed, satiniert, 600 g/m², ",
     "contactEmail": "info@andryeyeva.de",
-    "contactSocial": "@andryeyevart (Instagram)"
+    "contactSocial": "@andryeyevart (Instagram)",
+    "lowSrc": "/src/thumbs/35.jpg",
+    "lowWidth": 400,
+    "lowHeight": 566
   }
 ];
-
-// filter out entries that were explicitly marked as not accepted, then
-// export the processed list where title is set to the filename
-export const galleryPhotos = galleryPhotosRaw
-  .map(p => p);
