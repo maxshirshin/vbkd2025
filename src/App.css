@@ -44,7 +44,7 @@
 
 .nav-menu button.active {
   background-color: #007bff;
-  color: white;
+  color: #fff;
 }
 
 .main-content {
@@ -100,13 +100,14 @@ section {
 
 .b-content__info {
   flex: 1 0 30%;
+  max-width: 25vw;
   display: flex;
   align-items: start;
   flex-direction: column;
   padding: 0 0 0 1rem;
   overflow-y: auto;
   color: #fff;
-  font-size: clamp(.85rem, 1vw, 1.2rem);
+  font-size: clamp(.85rem, 1vw, 1rem);
 
   --indent-padding: .3em;
 }

@@ -321,7 +321,8 @@ export const galleryPhotos = [
     "artworkSize": "17×20cm",
     "artworkTechnique": "Aquarell und ein wenig Gouache auf Kalbsvellum",
     "contactEmail": "contact@sophiecrossart.com",
-    "contactWebsite": "www.sophiecrossart.com, instagram.com/sophiecrossart",
+    "contactWebsite": "www.sophiecrossart.com",
+    "contactSocial": "sophiecrossart",
     "lowSrc": "/src/thumbs/28.jpg",
     "lowWidth": 400,
     "lowHeight": 487
