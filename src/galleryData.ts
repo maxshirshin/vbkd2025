@@ -87,7 +87,7 @@ export const galleryPhotos = [
     "lowHeight": 493
   },
   {
-    "src": "/src/img/6.jpg",
+    "src": "/src/img/6.png",
     "width": 2048,
     "height": 1536,
     "title": "Echte Lungenflechte ",
@@ -230,10 +230,10 @@ export const galleryPhotos = [
     "src": "/src/img/22.jpg",
     "width": 3400,
     "height": 3425,
-    "title": "Deutsche Ufertamariske",
-    "description": "In Bayern vom Aussterben bedroht.",
+    "title": "Deutsche Ufertamariske - Früchte und Samen",
+    "description": "Die dynamischen, regelmäßig überschotterten Ufer alpiner Wildflüsse – die natürlichen Lebensräume der Deutschen Tamariske – sind durch umfassende Flussregulierungen fast vollständig zerstört worden. Ohne diese natürliche Gewässerdynamik breiten sich Weiden und Erlen aus und verdrängen die Tamariske. Deshalb wird die Art in der Roten Liste Deutschlands als „vom Aussterben bedroht“ geführt und kommt nur noch in wenigen stark beeinträchtigten Resthabitaten vor.",
     "author": "Elisabeth Lázár ",
-    "plantCommonName": "Deutsche Ufertamariske",
+    "plantCommonName": "Deutsche Tamariske",
     "plantBotanicalName": "Myricaria germanica",
     "artworkYear": "2025",
     "artworkSize": "29×29cm",
@@ -246,8 +246,8 @@ export const galleryPhotos = [
     "src": "/src/img/23.png",
     "width": 2484,
     "height": 3155,
-    "title": "Karlszepter-Läusekraut",
-    "description": "In Bayern stark gefährdet.",
+    "title": "Karlszepter-Läusekraut - Kapselfrucht",
+    "description": "Die Samen des Karlszepters reifen in den charakteristischen Kapselfrüchten. Die Keimung gelingt nur auf dauerhaft nassen, torfigen Moorböden, weshalb sich die Art nur sehr begrenzt ausbreiten kann. Als halbparasitische Pflanze ist sie auf die Wurzeln bestimmter Wirtsarten angewiesen, was ihre erfolgreiche Etablierung zusätzlich einschränkt.",
     "author": "Elisabeth Lázár",
     "plantCommonName": "Karlszepter-Läusekraut",
     "plantBotanicalName": "Pedicularis sceptrum-carolinum L.",
@@ -262,8 +262,8 @@ export const galleryPhotos = [
     "src": "/src/img/24.jpg",
     "width": 3345,
     "height": 4943,
-    "title": "Karlszepter-Läusekraut",
-    "description": "In Bayern stark gefährdet ",
+    "title": "Karlszepter-Läusekraut - Grundblätter und Kapselfrüchte",
+    "description": "Das Karlszepter ist ein seltenes Relikt der Eiszeit und gilt daher als besonders wertvoll für die botanische Vielfalt. Es bevorzugt nährstoffarme Moorwiesen, Flachmoore und feuchte Wegränder, Lebensräume, die durch Entwässerung, Nutzungsänderungen und Klimawandel stark zurückgegangen sind. Dadurch ist die Art in vielen südlichen Regionen selten geworden und gilt heute als stark gefährdet. Ihre besondere ökologische Rolle als typische Moorart macht sie zu einem wichtigen Indikator für intakte, besonders empfindliche Feuchtökosysteme.",
     "author": "Elisabeth Lázár ",
     "plantCommonName": "Karlszepter-Läusekraut",
     "plantBotanicalName": "Pedicularis sceptrum-carolinum L.",
@@ -296,7 +296,9 @@ export const galleryPhotos = [
     "width": 9284,
     "height": 7020,
     "title": "Vom Blühen und Reifen",
-    "description": "Die Preiselbeere steht unter Druck: Durch den Rückgang naturnaher Moore und lichter Nadelwälder verliert sie zunehmend ihren Lebensraum. Entwässerung, Forstwirtschaft und der Klimawandel setzen ihren Beständen zu – vielerorts gilt sie deshalb bereits als gefährdet.",
+    "description": `Die Preiselbeere begleitet mich seit meiner Kindheit. Als ich im Sommer im Norden war, wuchsen sie dort in unglaublicher Fülle – ganze Teppiche aus kleinen, glänzenden Blättern und tiefroten Beeren. Für mich trägt diese Pflanze deshalb eine ganz eigene, nostalgische Wärme. Heute jedoch ist ihr Lebensraum in Deutschland und vielen Teilen Europas stark geschrumpft. Moore, Heiden und lichte Kiefernwälder, in denen die Preiselbeere einst heimisch war, verschwinden durch Entwässerung, Aufforstung, Landwirtschaft und den Klimawandel. In manchen Regionen Europas ist die Art bereits deutlich zurückgegangen.
+Was oft übersehen wird: Ihr Rückgang betrifft nicht nur die Pflanze selbst, sondern auch das Netzwerk an Leben um sie herum. Die Blüten der Preiselbeere werden vor allem von Hummeln und verschiedenen Wildbienen bestäubt – Insekten, deren Populationen ebenfalls unter Druck stehen. Wenn ihre Bestäuber seltener werden, sinkt auch die Fruchtbildung der Preiselbeere. Beide Seiten verlieren also gemeinsam ihren Platz.
+Mit meinem Bild möchte ich diese leise, doch bedeutende Verbindung sichtbar machen: die Verwundbarkeit der Preiselbeere und die fragile Gemeinschaft, die sie trägt – und die sie zugleich braucht, um weiter zu bestehen.`,
     "author": "Daria Beizerov",
     "plantCommonName": "Preiselbeere",
     "plantBotanicalName": "Vaccinium vitis-idaea",
@@ -379,18 +381,27 @@ export const galleryPhotos = [
     "lowHeight": 563
   },
   {
-    "src": "/src/img/32.jpg",
-    "width": 3386,
-    "height": 3002,
+    "src": "/src/img/32.png",
+    "width": 1600,
+    "height": 1200,
     "title": "Enzian",
-    "description": "Die Pflanze ist in Deutschland nur in den Alpen anzutreffen. Gentiana acaulis steht wie alle Enzianarten unter Naturschutz und ist als \"gefährdet\" einestuft.(Rote Liste  Zentrum)",
+    "description": `Gentiana acaulis gehört zur Familie der Enziangewächse (Gentianaceae) und ist in Bergregionen Mittel- und
+Südeuropas heimisch, insbesondere in den Alpen aber auch im Jura und den Pyrenäen. Dieser Enzian wächst in
+Höhen von 800 bis 3000 m auf gut mit Wasser versorgten Silikatböden. Ein besonderes Kennzeichen von
+Gentiana acaulis sind kurze Blütenstände, die aus den grundständigen dichten Blattrosetten zu entspringen
+scheinen. Die intensiv blauen Blüten locken zur Blütezeit von April bis Juni Hummeln und Schmetterlinge zur
+Bestäubung an.
+Die natürlichen Lebensräume nehmen auch für den Kiesel-Glocken-Enzian immer mehr ab, weil auch die
+Bergwiesen immer häufiger überdüngt sind. Schon eine Portion Gülle vertreibt die Pflanze in kurzer Zeit und
+danach bleibt sie auch für Jahrzehnte noch verschwunden. Gentiana acaulis steht wie alle Enzianarten unter
+Naturschutz und ist in der Roten Liste als gefährdet eingestuft.`,
     "author": "Brigitte Rückle",
     "plantCommonName": "Kiesel-Glocken-Enzian",
     "plantBotanicalName": "Gentiana acaulis",
     "artworkYear": "2025",
     "artworkSize": "31.5×29.5cm",
-    "artworkTechnique": "Buntstifte ",
-    "contactNote": "Brigitte Rückle c/ o VBKD",
+    "artworkTechnique": "Buntstifte",
+    "contactNote": "Brigitte Rückle c/o VBKD",
     "lowSrc": "/src/thumbs/32.jpg",
     "lowWidth": 451,
     "lowHeight": 400
@@ -399,8 +410,13 @@ export const galleryPhotos = [
     "src": "/src/img/33.jpg",
     "width": 2752,
     "height": 3246,
-    "title": "Platterbse/ Duftwicke",
-    "description": "Verschiedene Naturformen der Platterbse stehen auf der Roten Liste der Farn u. Blütenpflanzen der TU Berlin. ",
+    "title": "Platterbse/Duftwicke",
+    "description": `Bei meinen Recherchen in Vorbereitung der Ausstellung bin ich auf www.rote-liste-zentrum.de
+darauf gestossen , dass verschiedene Wildformen ,wie z.B. die Lathyrus nissolia L. Gras-Platterbse die Lathyrus heterophyllus L. Verschiedenblättrige Platterbse gefährdet sind und
+die Lathyrus bauhini P.A. Genty Schwert Platterbse sogar vom Aussterben bedroht ist.
+Es gibt noch einige andere Gefährdete, die man auf der genannten Internetseite finden kann.
+Um dem Sammeln der Samen von Wildformen entgegenzuwirken, bietet der Handel zahlreiche
+kultivierte Sorten von Platterbsen oder auch Wicken an. Ich mag die bizarren Blüten in den unterschiedlichen Farben sehr gern und so zog ich sie auf meinem Balkon heran um sie für das eingereichte Bild zu malen.`,
     "author": "Margitta Baum",
     "plantCommonName": "Platterbse",
     "plantBotanicalName": "Lathyrus sp.",
@@ -413,8 +429,8 @@ export const galleryPhotos = [
   },
   {
     "src": "/src/img/34.jpg",
-    "width": 278,
-    "height": 400,
+    "width": 2387,
+    "height": 3437,
     "title": "Die Früchte des Olivenbaums",
     "description": "Das Olivenbaumsterben wurde in Europa zuerst in Süditalien festgestellt. Ursache - das Bakterium Xylella fastidiosa. Abgesehen davon wurden die Olivenhaine durch die Waldbrände in Südeuropa stark in Mitleidenschaft gezogen.  Dies lässt sich auch an den höheren Olivenölpreisen den Supermärkten erkennen.",
     "author": "Sue Hénon",
