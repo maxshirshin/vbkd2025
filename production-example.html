@@ -53,14 +53,20 @@
     }
   </style>
   
-  <!-- Load React and ReactDOM from CDN (UMD format) -->
-  <script src="https://cdn.jsdelivr.net/npm/react@19/dist/umd/react.production.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/react-dom@19/dist/umd/react-dom.production.min.js"></script>
+    <!-- Load React and ReactDOM from CDN (UMD format).
+         IMPORTANT: These must match the versions installed in `node_modules` when you
+         built `./dist`. The installed versions in this workspace are logged below.
+         If you see an error about React internals ("__CLIENT_INTERNALS...") then the
+         runtime React version on the host does not match the one used to build the bundle.
+         Update these URLs to the exact versions from your lockfile or run `npm install` with a fixed version.
+    -->
+      <!-- React and ReactDOM are bundled into the UMD build. No CDN scripts required. -->
+      <!-- If you prefer to provide React from the host, revert the build changes in `vite.config.ts` and load the matching UMD CDN scripts here. -->
 </head>
 <body>
   <div class="site-header">
     <h1>VBKD Gallery - Production Example</h1>
-    <p>Gallery injected from GitHub Pages CDN</p>
+    <p>Gallery injected from locally built production files</p>
   </div>
 
   <!-- This is where the gallery will be injected -->
@@ -69,13 +75,14 @@
   </div>
 
   <div class="site-footer">
-    <p>&copy; 2025. VBKD Gallery is embedded from GitHub Pages.</p>
+    <p>&copy; 2025. VBKD Gallery is embedded.</p>
   </div>
 
-  <!-- Load the VBKD Gallery bundle from GitHub Pages -->
-  <!-- Replace 'maxshirshin' with your GitHub username -->
-  <link rel="stylesheet" href="https://maxshirshin.github.io/vbkd2025/dist/style.css" />
-  <script src="https://maxshirshin.github.io/vbkd2025/dist/vbkd-gallery.umd.js"></script>
+  <!-- Load the VBKD Gallery bundle from locally built dist folder -->
+  <!-- LOCAL DEV: Loads from ./dist (built with npm run build) -->
+  <!-- PRODUCTION: Replace ./dist/ with https://maxshirshin.github.io/vbkd2025/dist/ -->
+  <link rel="stylesheet" href="./dist/vbkd2025.css" />
+  <script src="./dist/vbkd-gallery.umd.js"></script>
 
   <script>
     // Once the page is loaded, initialize the gallery
