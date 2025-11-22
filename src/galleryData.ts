@@ -4,7 +4,7 @@ export const galleryPhotos = [
     "width": 1800,
     "height": 2585,
     "title": "Herbst II",
-    "description": " Verbreitungsgebiet Südwest-Türkei und auf Rhodos. In Parks in der Türkei und auf Rhodos ist er durch das Fällen von Bäumen für Straßen, Staudämme und die Landwirtshaft gefährdet. Touristen und Bauindustrie sind seine Feinde.",
+    "description": "Hier in Europa, findet man diesen schönen Baum hauptsächlich in der Südtürkei und auf der griechischen Insel Rhodos.  Schätzungen zufolge ist das Verbreitungsgebiet dieser Art in den letzten 200 Jahren von 7000 Hektar auf 1657 Hektar zurückgegangen. Das Harz des Baumes wird seit über 700 Jahren als Allzweckheilmittel verwendet. Früher war es die Harzernte, die eine große Bedrohung für den Orientalischer Amberbaum darstelle. Heute führt die Zerstörung seines Lebensraums zu einem besorgniserregenden Bestandsrückgang. Entwaldung ist ein großes Problem, bedingt durch die intensive Stadtentwicklung und den Bedarf an Platz für Sommerhäuser und Zweitwohnungen (viele Einwohner sind in die Städte gezogen). Man könnte sagen, seine neuen Feinde sind Tourismus und Bebauung. Der Orientalischer Amberbaum steht nun auf der Roten Liste der IUCN (gefährdet, VU).(Quellen: de.wikipedia.org, www.sciencedirect.com,  http://journals.tubitak.gov.tr)",
     "author": "Sue Hénon",
     "plantCommonName": "Orientalischer Amberbaum",
     "plantBotanicalName": "Liquidambar orientalis",
@@ -432,7 +432,9 @@ kultivierte Sorten von Platterbsen oder auch Wicken an. Ich mag die bizarren Bl�
     "width": 1800,
     "height": 2592,
     "title": "Die Früchte des Olivenbaums",
-    "description": "Das Olivenbaumsterben wurde in Europa zuerst in Süditalien festgestellt. Ursache - das Bakterium Xylella fastidiosa. Abgesehen davon wurden die Olivenhaine durch die Waldbrände in Südeuropa stark in Mitleidenschaft gezogen.  Dies lässt sich auch an den höheren Olivenölpreisen den Supermärkten erkennen.",
+    "description": `Obwohl der Olivenbaum noch nicht auf der Liste der gefährdeten Arten steht, ist er durch verschiedene Faktoren bedroht. 
+Olivenbäume können mehrere hundert Jahre alt werden.  Das Olivebaumsterben wurde in Europa zuerst in Süditalien festgestellt. Auch andere südeuropäische Länder wie Spanien, Griechenland, Portugal und die Türkei hatten ähnliche Probleme. Leider wurde die Ernte aufgrund extremer Hitze, Wassermangel und Schädlingen in den vergangenen Sommern stark beeinträchtigt. Während der Blütezeit führte die Hitze zum Austrocknen der Blütenstände. Die extremen Wetterbedingungen im Sommer verhindern, dass die Früchte reifen und das Öl unter kühleren und feuchteren Bedingungen gebildet wird. Hinzu kommt, dass Waldbrände die Olivenhaine vernichten. Und dann ist da natürlich noch der tödliche bakterielle Krankheitserreger, Xylella fastidiosa, der die Ernte bedroht. Die Bäume ersticken,schließlich, verdorren und vertrocknen. Die einst frühen Blätter fallen ab, und die Rinde vergraut und hinterlässt eine Spur des Todes. Millionen von Olivenbäumen wurden dadurch vernichtet, insbesondere in Italien und Spanien.  In den Jahren 2022/2023 und 2023/2024 ging die Olivenölproduktion in der EU stark zurück.  Die Anstieg der Olivenölpreise in unseren Supermärkten spiegelt die Tragödie der Olivenernte in den betroffenen Regionen wider. Derzeit laufen Forschungs- und Entwicklungsarbeiten um das Problem von Xylella fastidiosa zu lösen.
+(Quellen: https://bbc.com  accessscience.com  theguardian.org  en.wikipedia.org, nature.com, https://wearewater.org)`,
     "author": "Sue Hénon",
     "plantCommonName": "Olive",
     "plantBotanicalName": "Olea europaea",
