@@ -11954,8 +11954,8 @@ function Uy({ carousel: c, animation: s, render: o, toolbar: f, controller: h, n
 const ar = [
   {
     src: "/src/img/1.jpg",
-    width: 3988,
-    height: 5728,
+    width: 1800,
+    height: 2585,
     title: "Herbst II",
     description: " Verbreitungsgebiet Südwest-Türkei und auf Rhodos. In Parks in der Türkei und auf Rhodos ist er durch das Fällen von Bäumen für Straßen, Staudämme und die Landwirtshaft gefährdet. Touristen und Bauindustrie sind seine Feinde.",
     author: "Sue Hénon",
@@ -11972,8 +11972,8 @@ const ar = [
   },
   {
     src: "/src/img/2.jpg",
-    width: 7016,
-    height: 9921,
+    width: 1800,
+    height: 2545,
     title: "Aerangis Punctata",
     description: "Aerangis punctata ist eine seltene, auf Bäumen wachsende Orchidee aus den feuchten Hochwäldern Madagaskars. Ihr zartes Gleichgewicht mit dem Lebensraum ist durch Abholzung und Klimaveränderungen bedroht. Um die wenigen verbliebenen Populationen zu schützen, steht sie heute als gefährdete Art (vulnerable) unter internationalem Schutz.",
     author: "Kristin Tessen",
@@ -11989,8 +11989,8 @@ const ar = [
   },
   {
     src: "/src/img/3.jpg",
-    width: 2480,
-    height: 3508,
+    width: 1800,
+    height: 2546,
     title: "Round leaved sundew",
     description: `Drosera rotundifolia, der Rundblättrige Sonnentau, ist eine mehrjährige, fleischfressende Pflanze. Sie besiedelt offene, feuchte und nährstoffarme Standorte wie saure Hochmoore und wächst insbesondere in Pflanzengesellschaften, die von Torfmoosen (Sphagnum) dominiert werden.
 
@@ -12010,8 +12010,8 @@ Hochmoore reagieren äußerst empfindlich auf Veränderungen. Entwässerung und 
   },
   {
     src: "/src/img/4.jpg",
-    width: 2480,
-    height: 3508,
+    width: 1800,
+    height: 2546,
     title: "Bog rosemary",
     description: `Andromeda polifolia, die Rosmarinheide, wächst ausschließlich in Hochmooren kälterer Regionen. Der kleine, immergrüne Zwergstrauch mit zierlichen rosa Blüten ist in den nördlichen Gebieten Nordamerikas, Asiens und Europas verbreitet.
 
@@ -12032,8 +12032,8 @@ Hochmoore reagieren äußerst empfindlich. Entwässerung zerstört ihre ökologi
   },
   {
     src: "/src/img/5.jpg",
-    width: 2373,
-    height: 2925,
+    width: 1800,
+    height: 2219,
     title: "Purple Marshlock (Blume des Jahres 2025)",
     description: `Das Sumpf-Blutauge kommt vom Tiefland bis ins Gebirge vor und besiedelt bevorzugt nasse, zeitweise überflutete Torf- und Schlammböden in Niedermooren. Es gedeiht besonders auf offenen Schlammstellen, wo es sich mit seinem langen Wurzelstock gut ausbreiten kann. Sogar auf Schwingrasen bildet es allmählich schwankende Teppiche auf der Wasseroberfläche mooriger Gewässer.
 
@@ -12053,8 +12053,8 @@ Hochmoore reagieren äußerst empfindlich auf Störungen. Entwässerung und Näh
   },
   {
     src: "/src/img/6.png",
-    width: 2048,
-    height: 1536,
+    width: 1800,
+    height: 1350,
     title: "Echte Lungenflechte ",
     description: `Durch Luftverschmutzung und die Zerstörung ihrer Lebensräume u. a. durch intensive forstwirtschaftliche Nutzung steht die Echte Lungenflechte mittlerweile in Deutschland auf der Roten Liste und gilt als "Vom Aussterben bedroht".
 Denn sie benötigt sehr saubere Luft, alte Bäume und eine hohe Luftfeuchtigkeit, um zu gedeihen. `,
@@ -12071,8 +12071,8 @@ Denn sie benötigt sehr saubere Luft, alte Bäume und eine hohe Luftfeuchtigkeit
   },
   {
     src: "/src/img/9.png",
-    width: 4320,
-    height: 5400,
+    width: 1800,
+    height: 2250,
     title: "Der Stern der Alpen",
     description: `Das Edelweiß ist in seinem natürlichen Lebensraum nach wie vor durch übertriebenes Pflücken bedroht. An vielen leicht zugänglichen Standorten war es dadurch fast ausgestorben. Seit die Art in vielen Ländern und Regionen unter Naturschutz steht, haben sich die Bestände in der freien Natur erholt. Die wilden Pflanzen sind jedoch nach wie vor durch unkontrolliertes Sammeln und Lebensraumverlust bedroht.
 
@@ -12092,8 +12092,8 @@ Die Pflanze wird gerne in vielen Gärten kultiviert. Kulturpflanzen sehen im Ver
   },
   {
     src: "/src/img/13.jpg",
-    width: 3345,
-    height: 4181,
+    width: 1800,
+    height: 2250,
     title: "Frauenschuh",
     description: `Der Frauenschuh gilt nach der Roten Liste als gefährdet und ist nach der Bundesartenschutzverordnung streng geschützt. Er steht auch unter besonderem Schutz der Europäischen Union. 
 Als ursächlich für die Gefährdung wird vor allem die weitreichende Forstwirtschaft gesehen, die eine natürliche Waldentwicklung und -dynamik kaum zulässt. Fototourismus trägt zu einem Rückgang der Art bei, da der Boden sich durch häufiges Betreten verdichtet und dadurch neuen Exemplaren eine Ansiedlung erschwert wird. 
@@ -12112,8 +12112,8 @@ Auch Pflanzenliebhaber, die den Frauenschuh ausgraben, tragen wesentlich zum Rü
   },
   {
     src: "/src/img/15.jpg",
-    width: 3386,
-    height: 2709,
+    width: 1800,
+    height: 1440,
     title: "Kastanie",
     description: `Die Rosskastanie hierzulande hat gleich mit mehreren Problemen auf einmal zu kämpfen: Zum einen mit der sogenannten Miniermotte, zum anderen mit einem Bakterium namens Pseudomonas. Auch der Klimawandel stresst die Bäume zunehmend. Die Weltnaturschutzunion (IUCN) hat die Gewöhnliche Rosskastanie deshalb mittlerweile als "gefährdet" eingestuft.
 ( https://www.oekotest.de/freizeit-technik/Kastanienblaetter-schon-im-Sommer-braun-So-reagieren-Sie-richtig_12142_1.html, 25.09.2025)`,
@@ -12130,8 +12130,8 @@ Auch Pflanzenliebhaber, die den Frauenschuh ausgraben, tragen wesentlich zum Rü
   },
   {
     src: "/src/img/16.jpg",
-    width: 3620,
-    height: 4802,
+    width: 1800,
+    height: 2388,
     title: "Maiglöckchen",
     description: "Diese zarte Blume wächst in vielen europäischen Ländern in der freien Natur, jedoch ist die Anzahl der Pflanzen sehr gering. In vielen Ländern ist das Pfücken der Blumen verboten, wie z.B. im Ruhrgebiet in Deutschland. Obwohl in Deutschland kleine Sträußchen für den Eigenbedarf erlaubt sind, ist das Ausgraben der unterirdischen Teile wie der Rhizome in der freien Natur untersagt, um die Bestände zu erhalten. ",
     author: "Nadiya Kyrylenko",
@@ -12148,8 +12148,8 @@ Auch Pflanzenliebhaber, die den Frauenschuh ausgraben, tragen wesentlich zum Rü
   },
   {
     src: "/src/img/17.jpg",
-    width: 6596,
-    height: 6660,
+    width: 1800,
+    height: 1817,
     title: "Stille der Frühlingswiesen",
     description: `Schachblume (Fritillaria meleagris)
 Aquarell und Graphit auf Papier
@@ -12171,8 +12171,8 @@ Diese Arbeit ist eine Hommage an ihre stille Schönheit und ihre flüchtige Prä
   },
   {
     src: "/src/img/18.jpg",
-    width: 2600,
-    height: 3478,
+    width: 1800,
+    height: 2408,
     title: "Lion's Tooth (Deutscher Löwenzahn)",
     description: `Der deutsche Löwenzahn (Taraxacum germanium), einst Teil der einheimischen Flora Deutschlands, ist heute vom Aussterben bedroht und überlebt nur noch an wenigen verstreuten Standorten in Hessen, Unterfranken und Oberbayern. Die meisten dieser Populationen bestehen aus nur wenigen einzelnen Pflanzen und überschreiten selten fünfzig Exemplare. Diese Art gedeiht in Niederungs-Feuchtwiesen, oft auf leicht salzhaltigen Böden, doch ihre Empfindlichkeit gegenüber Düngung und Störungen des Lebensraums hat sie äußerst verletzlich gemacht. Landwirtschaftliche Intensivierung, Lebensraumverlust und Verschmutzung haben sie an den Rand des Aussterbens gedrängt.
 
@@ -12191,8 +12191,8 @@ Während der Gewöhnliche Löwenzahn (Taraxacum officinale) heute noch weit verb
   },
   {
     src: "/src/img/19.jpg",
-    width: 9920,
-    height: 7014,
+    width: 1800,
+    height: 1273,
     title: "Beta vulgaris",
     description: "Die wilde Rübe die Urpflanze unseres heutigen Mangolds und der Roten Bete. Die Wildform gilt in Deutschland als potenziell gefährdet. Auf Helgoland, wo sie früher weit verbreitet war, gibt es noch einige wenige Bestände. Die Beta vulgaris wurde sonst nur noch an einigen Orten an der Ostseeküste verzeichnet.",
     author: "Manuela Herhaus",
@@ -12208,8 +12208,8 @@ Während der Gewöhnliche Löwenzahn (Taraxacum officinale) heute noch weit verb
   },
   {
     src: "/src/img/22.jpg",
-    width: 3400,
-    height: 3425,
+    width: 1800,
+    height: 1813,
     title: "Deutsche Ufertamariske - Früchte und Samen",
     description: "Die dynamischen, regelmäßig überschotterten Ufer alpiner Wildflüsse – die natürlichen Lebensräume der Deutschen Tamariske – sind durch umfassende Flussregulierungen fast vollständig zerstört worden. Ohne diese natürliche Gewässerdynamik breiten sich Weiden und Erlen aus und verdrängen die Tamariske. Deshalb wird die Art in der Roten Liste Deutschlands als „vom Aussterben bedroht“ geführt und kommt nur noch in wenigen stark beeinträchtigten Resthabitaten vor.",
     author: "Elisabeth Lázár ",
@@ -12224,8 +12224,8 @@ Während der Gewöhnliche Löwenzahn (Taraxacum officinale) heute noch weit verb
   },
   {
     src: "/src/img/23.png",
-    width: 2484,
-    height: 3155,
+    width: 1800,
+    height: 2286,
     title: "Karlszepter-Läusekraut - Kapselfrucht",
     description: "Die Samen des Karlszepters reifen in den charakteristischen Kapselfrüchten. Die Keimung gelingt nur auf dauerhaft nassen, torfigen Moorböden, weshalb sich die Art nur sehr begrenzt ausbreiten kann. Als halbparasitische Pflanze ist sie auf die Wurzeln bestimmter Wirtsarten angewiesen, was ihre erfolgreiche Etablierung zusätzlich einschränkt.",
     author: "Elisabeth Lázár",
@@ -12240,8 +12240,8 @@ Während der Gewöhnliche Löwenzahn (Taraxacum officinale) heute noch weit verb
   },
   {
     src: "/src/img/24.png",
-    width: 3345,
-    height: 4943,
+    width: 1800,
+    height: 2660,
     title: "Karlszepter-Läusekraut - Grundblätter und Kapselfrüchte",
     description: "Das Karlszepter ist ein seltenes Relikt der Eiszeit und gilt daher als besonders wertvoll für die botanische Vielfalt. Es bevorzugt nährstoffarme Moorwiesen, Flachmoore und feuchte Wegränder, Lebensräume, die durch Entwässerung, Nutzungsänderungen und Klimawandel stark zurückgegangen sind. Dadurch ist die Art in vielen südlichen Regionen selten geworden und gilt heute als stark gefährdet. Ihre besondere ökologische Rolle als typische Moorart macht sie zu einem wichtigen Indikator für intakte, besonders empfindliche Feuchtökosysteme.",
     author: "Elisabeth Lázár ",
@@ -12274,8 +12274,8 @@ Denn Überdüngung, Bebauung und Überwässerung verändert ihr Ökosystem und s
   },
   {
     src: "/src/img/26.jpg",
-    width: 9284,
-    height: 7020,
+    width: 1800,
+    height: 1361,
     title: "Vom Blühen und Reifen",
     description: `Die Preiselbeere begleitet mich seit meiner Kindheit. Als ich im Sommer im Norden war, wuchsen sie dort in unglaublicher Fülle – ganze Teppiche aus kleinen, glänzenden Blättern und tiefroten Beeren. Für mich trägt diese Pflanze deshalb eine ganz eigene, nostalgische Wärme. Heute jedoch ist ihr Lebensraum in Deutschland und vielen Teilen Europas stark geschrumpft. Moore, Heiden und lichte Kiefernwälder, in denen die Preiselbeere einst heimisch war, verschwinden durch Entwässerung, Aufforstung, Landwirtschaft und den Klimawandel. In manchen Regionen Europas ist die Art bereits deutlich zurückgegangen.
 Was oft übersehen wird: Ihr Rückgang betrifft nicht nur die Pflanze selbst, sondern auch das Netzwerk an Leben um sie herum. Die Blüten der Preiselbeere werden vor allem von Hummeln und verschiedenen Wildbienen bestäubt – Insekten, deren Populationen ebenfalls unter Druck stehen. Wenn ihre Bestäuber seltener werden, sinkt auch die Fruchtbildung der Preiselbeere. Beide Seiten verlieren also gemeinsam ihren Platz.
@@ -12293,8 +12293,8 @@ Mit meinem Bild möchte ich diese leise, doch bedeutende Verbindung sichtbar mac
   },
   {
     src: "/src/img/28.jpg",
-    width: 3850,
-    height: 4695,
+    width: 1800,
+    height: 2195,
     title: "Weiße Schlauchpflanze",
     description: "Die Weiße Schlauchpflanze (Sarracenia leucophylla) kommt ursprünglich im Südosten der Vereinigten Staaten vor, insbesondere in Alabama, Georgia, Florida und Mississippi. Obwohl sie dort noch in der Wildnis vorkommt, ist sie durch das Sammeln zu Dekorationszwecken und durch Landentwicklung bedroht. Daher ist sie in der Roten Liste der bedrohten Arten der IUCN aufgeführt. Als Zimmerpflanze ist sie beliebt, weil sie mit ihren auffällig gezeichneten Schläuchen und ihrer Fähigkeit, Insekten zu fangen, ein außergewöhnliches und dekoratives Element darstellt.",
     author: "Sophie Crossart",
@@ -12312,8 +12312,8 @@ Mit meinem Bild möchte ich diese leise, doch bedeutende Verbindung sichtbar mac
   },
   {
     src: "/src/img/29.png",
-    width: 3508,
-    height: 4963,
+    width: 1800,
+    height: 2547,
     title: "Zahnbürstchenwiese",
     description: `Der Schlangenknöterich ist eine typische Pflanze feuchter, artenreicher Lebensräume. Er wächst bevorzugt in Feuchtwiesen, an den Ufern von Bächen, an Moorrändern sowie in lichten Auwäldern. Doch sind diese Lebensräume zunehmend im Rückgang begriffen. 
 Trockenlegungen, intensive Bewirtschaftung durch die Landwirtschaft und das Verschwinden naturnaher Auwälder führen zum Verlust geeigneter Standorte. 
@@ -12333,8 +12333,8 @@ So wird er zunehmend zum Symbol für die bedrohte Schönheit unserer Feuchtlands
   },
   {
     src: "/src/img/30.jpg",
-    width: 2308,
-    height: 3003,
+    width: 1800,
+    height: 2342,
     title: "Sumpf-Herzblatt",
     description: "Diese seltene Pflanze gehört zu den Steinbrech-Gewächsen und steht auf der Roten Liste Bayerns und gilt als gefährdet. Ursache für die Gefährdung der Pflanze sind etwa die Entwässerung und Aufforstung von Moor-Standorten oder Trockenlegungen von Feuchtwiesen. Aber auch durch die Eutrophierungen, sprich Dünger-Eintragungen, werde die konkurrenzschwache Art zurückgedrängt (https://pfaffenhofen-today.de/46272-p-serie-sumpf-herzblatt. 08.10.2025)",
     author: "Leslie Bocker",
@@ -12395,7 +12395,7 @@ Naturschutz und ist in der Roten Liste als gefährdet eingestuft.`,
     lowHeight: 400
   },
   {
-    src: "/src/img/33.jpg",
+    src: "/src/img/33.png",
     width: 2629,
     height: 3440,
     title: "Platterbse/Duftwicke",
@@ -12417,8 +12417,8 @@ kultivierte Sorten von Platterbsen oder auch Wicken an. Ich mag die bizarren Bl�
   },
   {
     src: "/src/img/34.jpg",
-    width: 2387,
-    height: 3437,
+    width: 1800,
+    height: 2592,
     title: "Die Früchte des Olivenbaums",
     description: "Das Olivenbaumsterben wurde in Europa zuerst in Süditalien festgestellt. Ursache - das Bakterium Xylella fastidiosa. Abgesehen davon wurden die Olivenhaine durch die Waldbrände in Südeuropa stark in Mitleidenschaft gezogen.  Dies lässt sich auch an den höheren Olivenölpreisen den Supermärkten erkennen.",
     author: "Sue Hénon",
@@ -12434,8 +12434,8 @@ kultivierte Sorten von Platterbsen oder auch Wicken an. Ich mag die bizarren Bl�
   },
   {
     src: "/src/img/35.jpg",
-    width: 2480,
-    height: 3508,
+    width: 1800,
+    height: 2546,
     title: "Sanddorn ",
     description: "Der Sanddorn ist eine charakteristische Pflanze der Küstenregionen Deutschlands und besiedelt vor allem die Graudünen. Dieser Lebensraum ist jedoch zunehmend gefährdet: Küstenschutzmaßnahmen wie Eindeichungen, die intensive touristische Nutzung mit Trittschäden und Abfall sowie die Verdrängung durch die invasive Kartoffelrose bedrohen den Bestand der Graudünen und damit auch den Sanddorn selbst.",
     author: "Yana Andryeyeva",
