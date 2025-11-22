@@ -29,6 +29,27 @@ type PhotoSpec = Photo &
 function App() {
   const [index, setIndex] = useState(-1);
 
+  const IMAGE_BASE = (import.meta.env as any).VITE_IMAGE_BASE || '';
+
+  function resolveImagePath(pth?: string): string {
+    // Always return a string (empty string when no path provided)
+    if (!pth) return '';
+
+    // If it's an absolute URL (http(s)://), protocol-relative (//) or other scheme (data:, blob:, mailto:, etc.), return as-is
+    if (/^(https?:)?\/\//i.test(pth) || /^[a-z0-9+.-]+:/i.test(pth)) return pth;
+
+    // normalize base without trailing slash
+    const base = (IMAGE_BASE || '').replace(/\/+$/, '');
+
+    // If no base configured, return absolute (leading slash) path
+    if (!base) return pth.startsWith('/') ? pth : `/${pth}`;
+
+    // If path already begins with the base, avoid double-prefixing
+    if (pth.startsWith(base)) return pth;
+
+    return pth.startsWith('/') ? `${base}${pth}` : `${base}/${pth}`;
+  }
+
   // Read image index from URL on mount
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -59,8 +80,16 @@ function App() {
     JSON.stringify(galleryPhotos)
   ) as PhotoSpec[];
 
+  // Resolve image URLs according to environment (dev vs production)
+  for (const p of lightboxPhotos) {
+    p.src = resolveImagePath(p.src);
+    p.lowSrc = resolveImagePath(p.lowSrc);
+  }
+
   for (const p of albumPhotos) {
-    p.src = p.lowSrc;
+    // ensure lowSrc/src are resolved and album uses thumbnails
+    p.lowSrc = resolveImagePath(p.lowSrc);
+    p.src = p.lowSrc || resolveImagePath(p.src);
     p.width = p.lowWidth;
     p.height = p.lowHeight;
     p.alt = p.title;
