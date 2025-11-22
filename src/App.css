@@ -6,16 +6,41 @@
 }
 
 .app-header {
-  background-color: #243b42;
+  background-color: #ffffff;
   padding: 1rem;
   border-radius: 8px;
   margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  height: 200px; /* adjust this value to change logo proportion */
+  width: auto;
+  display: block;
+}
+
+.header-main {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .app-header h1 {
   margin: 0;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #243b42;
 }
 
 .nav-menu {
@@ -29,7 +54,7 @@
 
 .nav-menu button {
   background: none;
-  color: inherit;
+  color: #243b42;
   border: none;
   padding: 0.5rem 1rem;
   font-size: 1rem;
@@ -39,7 +64,7 @@
 }
 
 .nav-menu button:hover {
-  background-color: #e9ecef33;
+  background-color: #f0f0f0;
 }
 
 .nav-menu button.active {

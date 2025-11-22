@@ -259,7 +259,7 @@ export const galleryPhotos = [
     "lowHeight": 508
   },
   {
-    "src": "/src/img/24.jpg",
+    "src": "/src/img/24.png",
     "width": 3345,
     "height": 4943,
     "title": "Karlszepter-Läusekraut - Grundblätter und Kapselfrüchte",
@@ -408,8 +408,8 @@ Naturschutz und ist in der Roten Liste als gefährdet eingestuft.`,
   },
   {
     "src": "/src/img/33.jpg",
-    "width": 2752,
-    "height": 3246,
+    "width": 2629,
+    "height": 3440,
     "title": "Platterbse/Duftwicke",
     "description": `Bei meinen Recherchen in Vorbereitung der Ausstellung bin ich auf www.rote-liste-zentrum.de
 darauf gestossen , dass verschiedene Wildformen ,wie z.B. die Lathyrus nissolia L. Gras-Platterbse die Lathyrus heterophyllus L. Verschiedenblättrige Platterbse gefährdet sind und
@@ -425,7 +425,7 @@ kultivierte Sorten von Platterbsen oder auch Wicken an. Ich mag die bizarren Bl�
     "artworkTechnique": "Aquarell / Papier",
     "lowSrc": "/src/thumbs/33.jpg",
     "lowWidth": 400,
-    "lowHeight": 472
+    "lowHeight": 523
   },
   {
     "src": "/src/img/34.jpg",
@@ -449,7 +449,7 @@ kultivierte Sorten von Platterbsen oder auch Wicken an. Ich mag die bizarren Bl�
     "width": 2480,
     "height": 3508,
     "title": "Sanddorn ",
-    "description": "Der Sanddorn wächst in Graudünen, deren Fortbestand durch äußere Einflüsse – unter anderem Abfälle und Trittschäden – beeinträchtigt wird. An vielen Orten wird der Sanddorn durch die Ausbreitung der nichtheimischen Kartoffelrose seines Lebensraums beraubt.",
+    "description": "Der Sanddorn ist eine charakteristische Pflanze der Küstenregionen Deutschlands und besiedelt vor allem die Graudünen. Dieser Lebensraum ist jedoch zunehmend gefährdet: Küstenschutzmaßnahmen wie Eindeichungen, die intensive touristische Nutzung mit Trittschäden und Abfall sowie die Verdrängung durch die invasive Kartoffelrose bedrohen den Bestand der Graudünen und damit auch den Sanddorn selbst.",
     "author": "Yana Andryeyeva",
     "plantCommonName": "Sanddorn",
     "plantBotanicalName": "Hippophae rhamnoides",

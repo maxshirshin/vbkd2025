@@ -4,6 +4,7 @@ import Lightbox, { type Slide } from 'yet-another-react-lightbox';
 import 'react-photo-album/rows.css';
 import 'yet-another-react-lightbox/styles.css';
 import './App.css';
+import svgLogo from './img/VBKD-logo.svg';
 import { galleryPhotos } from './galleryData';
 
 type PhotoSpec = Photo &
@@ -70,35 +71,46 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>VBKD 2025 Online Ausstellung</h1>
-        <nav>
-          <ul className="nav-menu">
-            <li>
-              <button
-                className={activeTab === 'home' ? 'active' : ''}
-                onClick={() => setActiveTab('home')}
-              >
-                Home
-              </button>
-            </li>
-            <li>
-              <button
-                className={activeTab === 'about' ? 'active' : ''}
-                onClick={() => setActiveTab('about')}
-              >
-                About
-              </button>
-            </li>
-            <li>
-              <button
-                className={activeTab === 'contact' ? 'active' : ''}
-                onClick={() => setActiveTab('contact')}
-              >
-                Contact
-              </button>
-            </li>
-          </ul>
-        </nav>
+        <div className="header-left">
+          <a
+            href="https://www.verein-botanischekunst.de/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={svgLogo} alt="VBKD logo" className="header-logo" />
+          </a>
+        </div>
+        <div className="header-main">
+          <h1>VBKD 2025 Online Ausstellung</h1>
+          <nav>
+            <ul className="nav-menu">
+              <li>
+                <button
+                  className={activeTab === 'home' ? 'active' : ''}
+                  onClick={() => setActiveTab('home')}
+                >
+                  Home
+                </button>
+              </li>
+              <li>
+                <button
+                  className={activeTab === 'about' ? 'active' : ''}
+                  onClick={() => setActiveTab('about')}
+                >
+                  About
+                </button>
+              </li>
+              <li>
+                <button
+                  className={activeTab === 'contact' ? 'active' : ''}
+                  onClick={() => setActiveTab('contact')}
+                >
+                  Contact
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
       <main className="main-content">
         {activeTab === 'home' && (
