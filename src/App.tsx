@@ -16,6 +16,10 @@ type PhotoSpec = Photo &
     artworkYear: string;
     artworkSize: string;
     artworkTechnique: string;
+    titleEn: string;
+    descriptionEn: string;
+    plantCommonNameEn: string;
+    artworkTechniqueEn: string;
     contactEmail?: string;
     contactPhone?: string;
     contactWebsite?: string;
@@ -28,6 +32,7 @@ type PhotoSpec = Photo &
 
 function App() {
   const [index, setIndex] = useState(-1);
+  const [lang, setLang] = useState<'de' | 'en'>('de');
 
   const IMAGE_BASE = (import.meta.env as any).VITE_IMAGE_BASE || '';
 
@@ -84,6 +89,14 @@ function App() {
   for (const p of lightboxPhotos) {
     p.src = resolveImagePath(p.src);
     p.lowSrc = resolveImagePath(p.lowSrc);
+
+    // Apply language overrides for lightbox content
+    if (lang === 'en') {
+      p.title = p.titleEn;
+      p.description = p.descriptionEn;
+      p.plantCommonName = p.plantCommonNameEn;
+      p.artworkTechnique = p.artworkTechniqueEn;
+    }
   }
 
   for (const p of albumPhotos) {
@@ -92,6 +105,13 @@ function App() {
     p.src = p.lowSrc || resolveImagePath(p.src);
     p.width = p.lowWidth;
     p.height = p.lowHeight;
+    // Apply language overrides for album content
+    if (lang === 'en') {
+      p.title = p.titleEn || p.title;
+      p.description = p.descriptionEn;
+      p.plantCommonName = p.plantCommonNameEn;
+      p.artworkTechnique = p.artworkTechniqueEn;
+    }
     p.alt = p.title;
   }
 
@@ -217,6 +237,16 @@ function App() {
                     <span className="b-content__bn">
                       ({lightboxPhotos[index]?.plantBotanicalName})
                     </span>
+                  </div>
+                  <div>
+                    <button
+                      className="b-content__lang-btn"
+                      onClick={() => setLang(lang === 'de' ? 'en' : 'de')}
+                    >
+                      {lang === 'de'
+                        ? 'Switch to English'
+                        : 'Auf Deutsch lesen'}
+                    </button>
                   </div>
                   <div className="b-content__desc">
                     {lightboxPhotos[index]?.description}

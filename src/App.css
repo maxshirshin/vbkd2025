@@ -59,6 +59,15 @@
   --indent-padding: .3em;
 }
 
+.b-content__lang-btn {
+  color: #ccc;
+  background-color: #52535c;
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  font-size: 1em;
+  padding: .5em;
+}
+
 .b-content__author {
   font: normal 2em Georgia, serif;
   padding-bottom: var(--indent-padding);
