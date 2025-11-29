@@ -279,9 +279,9 @@ export const galleryPhotos = [
     "lowHeight": 400
   },
   {
-    "src": "/src/img/22.jpg",
-    "width": 1800,
-    "height": 1813,
+    "src": "/src/img/22.png",
+    "width": 1443,
+    "height": 1337,
     "title": "Deutsche Ufertamariske - Früchte und Samen",
     "titleEn": "German River Tamarisk – Fruits and Seeds",
     "description": "Die dynamischen, regelmäßig überschotterten Ufer alpiner Wildflüsse – die natürlichen Lebensräume der Deutschen Tamariske – sind durch umfassende Flussregulierungen fast vollständig zerstört worden. Ohne diese natürliche Gewässerdynamik breiten sich Weiden und Erlen aus und verdrängen die Tamariske. Deshalb wird die Art in der Roten Liste Deutschlands als „vom Aussterben bedroht“ geführt und kommt nur noch in wenigen stark beeinträchtigten Resthabitaten vor.",
@@ -295,8 +295,8 @@ export const galleryPhotos = [
     "artworkTechnique": "Graphit, Papier",
     "artworkTechniqueEn": "Graphite, paper",
     "lowSrc": "/src/thumbs/22.jpg",
-    "lowWidth": 400,
-    "lowHeight": 403
+    "lowWidth": 432,
+    "lowHeight": 400
   },
   {
     "src": "/src/img/23.png",
@@ -446,7 +446,7 @@ export const galleryPhotos = [
     "lowHeight": 520
   },
   {
-    "src": "/src/img/31.jpg",
+    "src": "/src/img/31.png",
     "width": 1427,
     "height": 2008,
     "title": "Die Geneigte",

@@ -55,9 +55,20 @@ function App() {
     return pth.startsWith('/') ? `${base}${pth}` : `${base}/${pth}`;
   }
 
-  // Read image index from URL on mount
+  // Read image index and language from URL on mount
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
+    // language param
+    const urlLang = params.get('lang');
+    if (urlLang) {
+      const normalized = urlLang.toLowerCase();
+      if (normalized === 'en' || normalized === 'de') {
+        setLang(normalized as 'de' | 'en');
+      } else {
+        setLang('de');
+      }
+    }
+    // image index param
     const imageIndex = params.get('image');
     if (imageIndex) {
       const idx = parseInt(imageIndex, 10);
@@ -67,16 +78,38 @@ function App() {
     }
   }, []);
 
-  // Update URL when index changes
+  // Update URL when index changes (preserve lang)
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
     if (index >= 0) {
-      const params = new URLSearchParams(window.location.search);
       params.set('image', index.toString());
-      window.history.replaceState(null, '', `?${params.toString()}`);
+    } else {
+      params.delete('image');
+    }
+    // always persist current language
+    params.set('lang', lang);
+    const query = params.toString();
+    if (query) {
+      window.history.replaceState(null, '', `?${query}`);
     } else {
       window.history.replaceState(null, '', window.location.pathname);
     }
-  }, [index]);
+  }, [index, lang]);
+
+  // Update URL when language changes (preserve image index)
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    params.set('lang', lang);
+    if (index >= 0) {
+      params.set('image', index.toString());
+    }
+    const query = params.toString();
+    window.history.replaceState(
+      null,
+      '',
+      query ? `?${query}` : window.location.pathname
+    );
+  }, [lang]);
 
   const albumPhotos: PhotoSpec[] = JSON.parse(
     JSON.stringify(galleryPhotos)
@@ -117,6 +150,46 @@ function App() {
 
   return (
     <div className="app-container">
+      <div className="intro">
+        <p>
+          Herzlich willkommen zur Ausstellung „Gefährdete Pflanzen“ des Vereins
+          Botanische Kunst Deutschland!
+        </p>
+        <p>
+          Im Mittelpunkt der diesjährigen Ausstellung stehen Pflanzenarten, die
+          zwar als gefährdet gelten, aber nicht unbedingt auf der nationalen
+          Roten Liste geführt werden. Einige der hier gezeigten Pflanzen sind
+          naheliegend, andere werden Sie überraschen. Es gibt viele Gründe,
+          warum eine Pflanze als besorgniserregend gelten kann. Dazu gehört die
+          Zerstörung ihres Lebensraums durch großflächige Bauvorhaben, sei es
+          für den Wohnungsbau, andere Bauprojekte oder den Straßenbau. Der
+          Klimawandel ist ein großes Problem, mit Waldbränden, steigenden
+          Temperaturen und Überschwemmungen. Hinzu kommen Insektenbefall,
+          tödliche Bakterien, Übernutzung und sogar Vandalismus.
+          Interessanterweise bedeutet die Gefährdung einer Pflanze an einem Ort
+          – ob in Deutschland oder weltweit – nicht zwangsläufig, dass sie auch
+          überall gefährdet ist.
+        </p>
+        <p>
+          Deutschland ist ein gutes Beispiel: Der Gewöhnliche Löwenzahn steht in
+          Bayern und Hessen auf der Roten Liste, in anderen Teilen Deutschlands
+          jedoch nicht. Manche Pflanzen stehen kurz vor dem Aussterben, während
+          andere erst jetzt die Auswirkungen verschiedener Probleme zu spüren
+          bekommen.
+        </p>
+        <p>
+          Ein kleiner beruhigender Aspekt ist die bemerkenswerte
+          Anpassungsfähigkeit einiger Pflanzen an andere Regionen der Erde.
+          Während sich unsere Landmassen durch den Klimawandel verändern und
+          manche Pflanzen absterben oder verschwinden, beginnen dieselben
+          Pflanzen in Umgebungen, die ihren früheren Lebensräumen ähneln, wieder
+          aufzutauchen und zu gedeihen. Leider schreitet die Zerstörung unserer
+          Pflanzenwelt so schnell voran, dass wir möglicherweise nicht genug
+          Zeit haben, dies noch zu verhindern, selbst angesichts der positiven
+          Nachrichten über die Anpassungsfähigkeit der Pflanzen an neue
+          Umgebungen.
+        </p>
+      </div>
       <div className="gallery-container">
         <PhotoAlbum
           photos={albumPhotos}
@@ -244,7 +317,7 @@ function App() {
                       onClick={() => setLang(lang === 'de' ? 'en' : 'de')}
                     >
                       {lang === 'de'
-                        ? 'Switch to English'
+                        ? 'Read in English (automatic translation)'
                         : 'Auf Deutsch lesen'}
                     </button>
                   </div>

@@ -5,6 +5,14 @@
   padding: 2rem;
 }
 
+.intro {
+  color: #243b42;
+
+  & > p {
+    padding-bottom: .5em;
+  }
+}
+
 .gallery-container {
   margin-top: 2rem;
   max-width: 100%;
@@ -19,7 +27,8 @@
 .gallery-image-title {
   color: #fff;
   font-size: .9rem;
-  padding-bottom: 1rem;
+  padding-top: .25rem;
+  padding-bottom: .75rem;
 }
 
 .b-content {
@@ -61,11 +70,11 @@
 
 .b-content__lang-btn {
   color: #ccc;
-  background-color: #52535c;
+  background-color: #364245;
   border: solid 1px #ccc;
   border-radius: 3px;
   font-size: 1em;
-  padding: .5em;
+  padding: .4em;
 }
 
 .b-content__author {
