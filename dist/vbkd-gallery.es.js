@@ -12232,8 +12232,8 @@ A rare species protected in Germany. Its natural habitats — damp meadows and r
     src: "/src/img/18.jpg",
     width: 1800,
     height: 2408,
-    title: "Lion's Tooth (Deutscher Löwenzahn)",
-    titleEn: "Lion's Tooth (German Dandelion)",
+    title: "Lion's Tooth (Deutsche Löwenzahn)",
+    titleEn: "Lion's Tooth (German Common Dandelion)",
     description: `Der deutsche Löwenzahn (Taraxacum germanium), einst Teil der einheimischen Flora Deutschlands, ist heute vom Aussterben bedroht und überlebt nur noch an wenigen verstreuten Standorten in Hessen, Unterfranken und Oberbayern. Die meisten dieser Populationen bestehen aus nur wenigen einzelnen Pflanzen und überschreiten selten fünfzig Exemplare. Diese Art gedeiht in Niederungs-Feuchtwiesen, oft auf leicht salzhaltigen Böden, doch ihre Empfindlichkeit gegenüber Düngung und Störungen des Lebensraums hat sie äußerst verletzlich gemacht. Landwirtschaftliche Intensivierung, Lebensraumverlust und Verschmutzung haben sie an den Rand des Aussterbens gedrängt.
 
 Während der Gewöhnliche Löwenzahn (Taraxacum officinale) heute noch weit verbreitet ist, werden auch seine natürlichen Lebensräume zunehmend durch ähnliche Bedrohungen – Herbizideinsatz, Monokultur-Landwirtschaft, städtische Bebauung und den Klimawandel – beeinträchtigt. Wenn diese Belastungen anhalten, könnte selbst diese widerstandsfähige und weit verbreitete Pflanze dem Beispiel des deutschen Löwenzahns folgen und zurückgehen – ein mahnendes Zeichen dafür, dass keine Art vor den Folgen menschengemachter Umweltveränderungen gefeit ist.`,
@@ -12241,7 +12241,7 @@ Während der Gewöhnliche Löwenzahn (Taraxacum officinale) heute noch weit verb
 
 While the common dandelion (Taraxacum officinale) remains widespread, its natural habitats are also increasingly affected by similar pressures — herbicides, monoculture agriculture, urban development, and climate change. If these pressures continue, even this resilient species may decline — a reminder that no species is immune to human-driven environmental change.`,
     author: "Kate Rolshoven",
-    plantCommonName: "Deutscher Löwenzahn",
+    plantCommonName: "Deutsche Gewohnliche Löwenzahn",
     plantCommonNameEn: "German Dandelion",
     plantBotanicalName: "Taraxacum germanicum",
     artworkYear: "2023",
@@ -12265,7 +12265,7 @@ While the common dandelion (Taraxacum officinale) remains widespread, its natura
     author: "Manuela Herhaus",
     plantCommonName: "Wilde Rübe",
     plantCommonNameEn: "Wild Beet",
-    plantBotanicalName: "Beta vulgaris",
+    plantBotanicalName: "Beta vulgaris subsp. maritima",
     artworkYear: "2025",
     artworkSize: "30×42cm",
     artworkTechnique: "Tusche auf Zeichenfolie mit Beschreibung auf Papier",
@@ -12375,7 +12375,8 @@ Mit meinem Bild möchte ich diese leise, doch bedeutende Verbindung sichtbar mac
     artworkSize: "41×31cm",
     artworkTechnique: "Aquarell auf Papier (HP)",
     artworkTechniqueEn: "Watercolor on paper (HP)",
-    contactWebsite: "https://www.instagram.com/daria.botanicals/",
+    contactWebsite: "https://daria.gallery",
+    contactSocial: "https://www.instagram.com/daria.botanicals/",
     lowSrc: "/src/thumbs/26.jpg",
     lowWidth: 529,
     lowHeight: 400
@@ -12611,19 +12612,19 @@ function By() {
         "img",
         {
           src: S("/src/img/poster.jpeg"),
-          height: 320,
+          height: 450,
           alt: "VBKD Online Ausstellung 2025"
         }
       ) }),
       /* @__PURE__ */ ee.jsxs("div", { className: "intro__text", children: [
         /* @__PURE__ */ ee.jsx("h3", { children: "Herzlich willkommen zur Ausstellung „Gefährdete Pflanzen“ des Vereins Botanische Kunst Deutschland!" }),
         /* @__PURE__ */ ee.jsx("p", { children: "Im Mittelpunkt der diesjährigen Ausstellung stehen Pflanzenarten, die zwar als gefährdet gelten, aber nicht unbedingt auf der nationalen Roten Liste geführt werden. Einige der hier gezeigten Pflanzen sind naheliegend, andere werden Sie überraschen. Es gibt viele Gründe, warum eine Pflanze als besorgniserregend gelten kann. Dazu gehört die Zerstörung ihres Lebensraums durch großflächige Bauvorhaben, sei es für den Wohnungsbau, andere Bauprojekte oder den Straßenbau. Der Klimawandel ist ein großes Problem, mit Waldbränden, steigenden Temperaturen und Überschwemmungen. Hinzu kommen Insektenbefall, tödliche Bakterien, Übernutzung und sogar Vandalismus. Interessanterweise bedeutet die Gefährdung einer Pflanze an einem Ort – ob in Deutschland oder weltweit – nicht zwangsläufig, dass sie auch überall gefährdet ist." }),
-        /* @__PURE__ */ ee.jsx("p", { children: "Deutschland ist ein gutes Beispiel: Der Gewöhnliche Löwenzahn steht in Bayern und Hessen auf der Roten Liste, in anderen Teilen Deutschlands jedoch nicht. Manche Pflanzen stehen kurz vor dem Aussterben, während andere erst jetzt die Auswirkungen verschiedener Probleme zu spüren bekommen." }),
+        /* @__PURE__ */ ee.jsx("p", { children: "Deutschland ist ein gutes Beispiel: Der Deutsche Gewöhnliche Löwenzahn steht in Bayern und Hessen auf der Roten Liste, in anderen Teilen Deutschlands jedoch nicht. Manche Pflanzen stehen kurz vor dem Aussterben, während andere erst jetzt die Auswirkungen verschiedener Probleme zu spüren bekommen." }),
         /* @__PURE__ */ ee.jsx("p", { children: "Ein kleiner beruhigender Aspekt ist die bemerkenswerte Anpassungsfähigkeit einiger Pflanzen an andere Regionen der Erde. Während sich unsere Landmassen durch den Klimawandel verändern und manche Pflanzen absterben oder verschwinden, beginnen dieselben Pflanzen in Umgebungen, die ihren früheren Lebensräumen ähneln, wieder aufzutauchen und zu gedeihen. Leider schreitet die Zerstörung unserer Pflanzenwelt so schnell voran, dass wir möglicherweise nicht genug Zeit haben, dies noch zu verhindern, selbst angesichts der positiven Nachrichten über die Anpassungsfähigkeit der Pflanzen an neue Umgebungen." }),
         /* @__PURE__ */ ee.jsxs("p", { className: "intro__eng", children: [
           /* @__PURE__ */ ee.jsx("strong", { children: 'Welcome to the VBKD 2025 Online Exhibition "Threatened Plants"!' }),
           " ",
-          "This year’s exhibition highlights plant species considered threatened even if not on the national Red List, showing both expected and surprising examples. Their vulnerability stems from habitat destruction through construction and roads, climate change with fires, rising temperatures and floods, insect infestations, lethal pathogens, overuse and even vandalism. Threat status can be highly local: for instance, the common dandelion is red-listed in parts of Germany but not elsewhere. While some species are near extinction and others are only beginning to feel emerging pressures, a modest source of hope lies in the remarkable ability of certain plants to adapt and reestablish themselves in new regions resembling their former habitats — though the pace of environmental loss may outstrip these adaptive successes."
+          "This year’s exhibition highlights plant species considered threatened even if not on the national Red List, showing both expected and surprising examples. Their vulnerability stems from habitat destruction through construction and roads, climate change with fires, rising temperatures and floods, insect infestations, lethal pathogens, overuse and even vandalism. Threat status can be highly local: for instance, the common German dandelion is red-listed in parts of Germany but not elsewhere. While some species are near extinction and others are only beginning to feel emerging pressures, a modest source of hope lies in the remarkable ability of certain plants to adapt and reestablish themselves in new regions resembling their former habitats — though the pace of environmental loss may outstrip these adaptive successes."
         ] })
       ] })
     ] }),
@@ -12639,7 +12640,7 @@ function By() {
           render: {
             extras: (m, { photo: v }) => /* @__PURE__ */ ee.jsxs("div", { className: "gallery-image-title", children: [
               v.author,
-              " - ",
+              "  •  ",
               v.title
             ] })
           }

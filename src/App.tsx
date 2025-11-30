@@ -154,7 +154,7 @@ function App() {
         <div className="intro__poster">
           <img
             src={resolveImagePath('/src/img/poster.jpeg')}
-            height={320}
+            height={450}
             alt="VBKD Online Ausstellung 2025"
           />
         </div>
@@ -179,11 +179,11 @@ function App() {
             zwangsläufig, dass sie auch überall gefährdet ist.
           </p>
           <p>
-            Deutschland ist ein gutes Beispiel: Der Gewöhnliche Löwenzahn steht
-            in Bayern und Hessen auf der Roten Liste, in anderen Teilen
-            Deutschlands jedoch nicht. Manche Pflanzen stehen kurz vor dem
-            Aussterben, während andere erst jetzt die Auswirkungen verschiedener
-            Probleme zu spüren bekommen.
+            Deutschland ist ein gutes Beispiel: Der Deutsche Gewöhnliche
+            Löwenzahn steht in Bayern und Hessen auf der Roten Liste, in anderen
+            Teilen Deutschlands jedoch nicht. Manche Pflanzen stehen kurz vor
+            dem Aussterben, während andere erst jetzt die Auswirkungen
+            verschiedener Probleme zu spüren bekommen.
           </p>
           <p>
             Ein kleiner beruhigender Aspekt ist die bemerkenswerte
@@ -207,13 +207,13 @@ function App() {
             habitat destruction through construction and roads, climate change
             with fires, rising temperatures and floods, insect infestations,
             lethal pathogens, overuse and even vandalism. Threat status can be
-            highly local: for instance, the common dandelion is red-listed in
-            parts of Germany but not elsewhere. While some species are near
-            extinction and others are only beginning to feel emerging pressures,
-            a modest source of hope lies in the remarkable ability of certain
-            plants to adapt and reestablish themselves in new regions resembling
-            their former habitats — though the pace of environmental loss may
-            outstrip these adaptive successes.
+            highly local: for instance, the common German dandelion is
+            red-listed in parts of Germany but not elsewhere. While some species
+            are near extinction and others are only beginning to feel emerging
+            pressures, a modest source of hope lies in the remarkable ability of
+            certain plants to adapt and reestablish themselves in new regions
+            resembling their former habitats — though the pace of environmental
+            loss may outstrip these adaptive successes.
           </p>
         </div>
       </div>
@@ -227,7 +227,7 @@ function App() {
           render={{
             extras: (_, { photo }) => (
               <div className="gallery-image-title">
-                {photo.author} - {photo.title}
+                {photo.author}&nbsp;&nbsp;•&nbsp;&nbsp;{photo.title}
               </div>
             ),
           }}

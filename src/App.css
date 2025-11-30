@@ -21,6 +21,8 @@
 .intro__text p {
   font-size: 1rem;
   padding-bottom: .5em;
+  hyphens: auto;
+  overflow-wrap: anywhere;
 }
 
 .intro__text h3 {
@@ -182,6 +184,10 @@
     padding-top: 0;
   }
 
+  .b-content__pic {
+    padding-bottom: 2em;
+  }
+
   .b-content__info {
     width: auto;
     padding: .5rem 0;
@@ -190,5 +196,13 @@
     max-width: none;
 
     --indent-padding: .2em;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro__poster {
+    align-self: center;
   }
 }
