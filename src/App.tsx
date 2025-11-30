@@ -151,44 +151,71 @@ function App() {
   return (
     <div className="app-container">
       <div className="intro">
-        <p>
-          Herzlich willkommen zur Ausstellung „Gefährdete Pflanzen“ des Vereins
-          Botanische Kunst Deutschland!
-        </p>
-        <p>
-          Im Mittelpunkt der diesjährigen Ausstellung stehen Pflanzenarten, die
-          zwar als gefährdet gelten, aber nicht unbedingt auf der nationalen
-          Roten Liste geführt werden. Einige der hier gezeigten Pflanzen sind
-          naheliegend, andere werden Sie überraschen. Es gibt viele Gründe,
-          warum eine Pflanze als besorgniserregend gelten kann. Dazu gehört die
-          Zerstörung ihres Lebensraums durch großflächige Bauvorhaben, sei es
-          für den Wohnungsbau, andere Bauprojekte oder den Straßenbau. Der
-          Klimawandel ist ein großes Problem, mit Waldbränden, steigenden
-          Temperaturen und Überschwemmungen. Hinzu kommen Insektenbefall,
-          tödliche Bakterien, Übernutzung und sogar Vandalismus.
-          Interessanterweise bedeutet die Gefährdung einer Pflanze an einem Ort
-          – ob in Deutschland oder weltweit – nicht zwangsläufig, dass sie auch
-          überall gefährdet ist.
-        </p>
-        <p>
-          Deutschland ist ein gutes Beispiel: Der Gewöhnliche Löwenzahn steht in
-          Bayern und Hessen auf der Roten Liste, in anderen Teilen Deutschlands
-          jedoch nicht. Manche Pflanzen stehen kurz vor dem Aussterben, während
-          andere erst jetzt die Auswirkungen verschiedener Probleme zu spüren
-          bekommen.
-        </p>
-        <p>
-          Ein kleiner beruhigender Aspekt ist die bemerkenswerte
-          Anpassungsfähigkeit einiger Pflanzen an andere Regionen der Erde.
-          Während sich unsere Landmassen durch den Klimawandel verändern und
-          manche Pflanzen absterben oder verschwinden, beginnen dieselben
-          Pflanzen in Umgebungen, die ihren früheren Lebensräumen ähneln, wieder
-          aufzutauchen und zu gedeihen. Leider schreitet die Zerstörung unserer
-          Pflanzenwelt so schnell voran, dass wir möglicherweise nicht genug
-          Zeit haben, dies noch zu verhindern, selbst angesichts der positiven
-          Nachrichten über die Anpassungsfähigkeit der Pflanzen an neue
-          Umgebungen.
-        </p>
+        <div className="intro__poster">
+          <img
+            src={resolveImagePath('/src/img/poster.jpeg')}
+            height={320}
+            alt="VBKD Online Ausstellung 2025"
+          />
+        </div>
+        <div className="intro__text">
+          <h3>
+            Herzlich willkommen zur Ausstellung „Gefährdete Pflanzen“ des
+            Vereins Botanische Kunst Deutschland!
+          </h3>
+          <p>
+            Im Mittelpunkt der diesjährigen Ausstellung stehen Pflanzenarten,
+            die zwar als gefährdet gelten, aber nicht unbedingt auf der
+            nationalen Roten Liste geführt werden. Einige der hier gezeigten
+            Pflanzen sind naheliegend, andere werden Sie überraschen. Es gibt
+            viele Gründe, warum eine Pflanze als besorgniserregend gelten kann.
+            Dazu gehört die Zerstörung ihres Lebensraums durch großflächige
+            Bauvorhaben, sei es für den Wohnungsbau, andere Bauprojekte oder den
+            Straßenbau. Der Klimawandel ist ein großes Problem, mit Waldbränden,
+            steigenden Temperaturen und Überschwemmungen. Hinzu kommen
+            Insektenbefall, tödliche Bakterien, Übernutzung und sogar
+            Vandalismus. Interessanterweise bedeutet die Gefährdung einer
+            Pflanze an einem Ort – ob in Deutschland oder weltweit – nicht
+            zwangsläufig, dass sie auch überall gefährdet ist.
+          </p>
+          <p>
+            Deutschland ist ein gutes Beispiel: Der Gewöhnliche Löwenzahn steht
+            in Bayern und Hessen auf der Roten Liste, in anderen Teilen
+            Deutschlands jedoch nicht. Manche Pflanzen stehen kurz vor dem
+            Aussterben, während andere erst jetzt die Auswirkungen verschiedener
+            Probleme zu spüren bekommen.
+          </p>
+          <p>
+            Ein kleiner beruhigender Aspekt ist die bemerkenswerte
+            Anpassungsfähigkeit einiger Pflanzen an andere Regionen der Erde.
+            Während sich unsere Landmassen durch den Klimawandel verändern und
+            manche Pflanzen absterben oder verschwinden, beginnen dieselben
+            Pflanzen in Umgebungen, die ihren früheren Lebensräumen ähneln,
+            wieder aufzutauchen und zu gedeihen. Leider schreitet die Zerstörung
+            unserer Pflanzenwelt so schnell voran, dass wir möglicherweise nicht
+            genug Zeit haben, dies noch zu verhindern, selbst angesichts der
+            positiven Nachrichten über die Anpassungsfähigkeit der Pflanzen an
+            neue Umgebungen.
+          </p>
+          <p className="intro__eng">
+            <strong>
+              Welcome to the VBKD 2025 Online Exhibition "Threatened Plants"!
+            </strong>{' '}
+            This year’s exhibition highlights plant species considered
+            threatened even if not on the national Red List, showing both
+            expected and surprising examples. Their vulnerability stems from
+            habitat destruction through construction and roads, climate change
+            with fires, rising temperatures and floods, insect infestations,
+            lethal pathogens, overuse and even vandalism. Threat status can be
+            highly local: for instance, the common dandelion is red-listed in
+            parts of Germany but not elsewhere. While some species are near
+            extinction and others are only beginning to feel emerging pressures,
+            a modest source of hope lies in the remarkable ability of certain
+            plants to adapt and reestablish themselves in new regions resembling
+            their former habitats — though the pace of environmental loss may
+            outstrip these adaptive successes.
+          </p>
+        </div>
       </div>
       <div className="gallery-container">
         <PhotoAlbum

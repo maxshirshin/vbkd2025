@@ -7,10 +7,28 @@
 
 .intro {
   color: #243b42;
+  display: flex;
+  align-items: top;
+  justify-content: left;
+  gap: 1rem;
+}
 
-  & > p {
-    padding-bottom: .5em;
-  }
+.intro__text p {
+  font-size: 1rem;
+  padding-bottom: .5em;
+}
+
+.intro__text h3 {
+  font-size: 1.5rem;
+  padding-bottom: .5em;
+}
+
+.intro__eng {
+  font-style: italic;
+  font-size: .8em;
+  opacity: .75;
+  border-left: solid 4px;
+  padding-left: 1em;
 }
 
 .gallery-container {
